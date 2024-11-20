@@ -1,0 +1,36 @@
+{
+ "ProjectInfo": {
+  "Project": {
+   "Name": "Seacret_WwiseProject",
+   "GUID": "{3173582B-D8C2-4898-80AF-D3FC475FD2E8}",
+   "Generator": "2023.1.8.8601"
+  },
+  "CacheRoot": "../.cache",
+  "Platforms": [
+   {
+    "Name": "Mac",
+    "GUID": "{B95A72B6-6E98-40F5-9CE6-098B74204A9F}",
+    "BasePlatform": "Mac",
+    "BasePlatformGUID": "{9C6217D5-DD11-4795-87C1-6CE02853C540}",
+    "Path": "../GeneratedSoundBanks/Mac"
+   },
+   {
+    "Name": "Windows",
+    "GUID": "{48D3BEB6-E9A7-491E-8C17-FD025C047BAD}",
+    "BasePlatform": "Windows",
+    "BasePlatformGUID": "{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}",
+    "Path": "../GeneratedSoundBanks/Windows"
+   }
+  ],
+  "Languages": [
+   {
+    "Name": "English(US)",
+    "Id": "684519430",
+    "GUID": "{B48BC995-063D-49EF-8067-53DA946D9078}",
+    "Default": "true",
+    "UseAsStandIn": "true"
+   }
+  ],
+  "FileHash": "{E082C550-A3B3-D9F5-7896-CC9C18CB8D2A}"
+ }
+}
