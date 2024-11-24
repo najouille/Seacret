@@ -1,0 +1,93 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "RootPaths": {
+   "ProjectRoot": "../..",
+   "SourceFilesRoot": "../../.cache/Mac",
+   "SoundBanksRoot": ".",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "."
+  },
+  "DialogueEvents": [],
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "Type": "User",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "Hash": "{D326F752-7CA2-0A14-FDB1-63ECE89D0199}",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk",
+    "Plugins": {
+     "AudioDevices": [
+      {
+       "Id": "2317455096",
+       "Name": "No_Output",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\No_Output",
+       "GUID": "{3166502A-2071-42F8-84ED-ADCC0594DB1B}",
+       "LibName": "No Output",
+       "LibId": "11862023"
+      },
+      {
+       "Id": "3859886410",
+       "Name": "System",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\System",
+       "GUID": "{DFD03AAC-584D-4B98-95E0-EEDE76F9530B}",
+       "LibName": "System",
+       "LibId": "11403271"
+      }
+     ]
+    },
+    "Busses": [
+     {
+      "Id": "3803692087",
+      "Name": "Master Audio Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     }
+    ]
+   },
+   {
+    "Id": "3161908922",
+    "Type": "User",
+    "GUID": "{B5436080-6685-492B-9F0D-407F97437144}",
+    "Language": "SFX",
+    "Hash": "{46F3B3A2-CDC3-AC64-D54F-521997D00260}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\MAIN",
+    "ShortName": "MAIN",
+    "Path": "MAIN.bnk",
+    "Media": [
+     {
+      "Id": "74272501",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Menu_Validation.wav",
+      "CachePath": "SFX/Menu_Validation_8464AFCD.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "4046753069",
+      "Name": "Menu_Confirm",
+      "ObjectPath": "\\Events\\Menu\\Menu_Confirm",
+      "GUID": "{E628941F-793C-43D1-872A-1F4F9E46FD0D}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.8931384",
+      "DurationMax": "4.8931384",
+      "MediaRefs": [
+       {
+        "Id": "74272501"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{561FB12E-C287-72F7-9B45-3B4A1A531743}"
+ }
+}

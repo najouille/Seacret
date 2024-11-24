@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3161908922" Type="User" GUID="{B5436080-6685-492B-9F0D-407F97437144}" Language="SFX" Hash="{46F3B3A2-CDC3-AC64-D54F-521997D00260}">
+			<ObjectPath>\SoundBanks\Default Work Unit\MAIN</ObjectPath>
+			<ShortName>MAIN</ShortName>
+			<Path>MAIN.bnk</Path>
+			<Media>
+				<File Id="74272501" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Menu_Validation.wav</ShortName>
+					<CachePath>SFX/Menu_Validation_8464AFCD.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="4046753069" Name="Menu_Confirm" ObjectPath="\Events\Menu\Menu_Confirm" GUID="{E628941F-793C-43D1-872A-1F4F9E46FD0D}" DurationType="OneShot" DurationMin="4.8931384" DurationMax="4.8931384">
+					<MediaRefs>
+						<MediaRef Id="74272501"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{D3BBD6F3-C569-6B46-F224-BAB87EAA4FA1}</FileHash>
+</SoundBanksInfo>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8BE9884C-15DE-4F2C-8CA0-795A1B9DFF5C}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Menu" ID="{8BE9884C-15DE-4F2C-8CA0-795A1B9DFF5C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Menu_Confirm" ID="{E628941F-793C-43D1-872A-1F4F9E46FD0D}">
+					<ChildrenList>
+						<Action Name="" ID="{BDC1527B-17E7-4EFE-A162-687BBAF5B1FB}" ShortID="760767645">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Menu_Validation" ID="{BDB206F1-ECFF-4336-9B1D-13013503A468}" WorkUnitID="{C5526A98-8FC3-43A0-A913-AAA551325C8B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

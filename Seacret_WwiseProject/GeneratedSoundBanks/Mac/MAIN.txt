@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4046753069	Menu_Confirm			\Menu\Menu_Confirm	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	74272501	Menu_Validation	Y:\Documents\GitHub\Seacret\Seacret_WwiseProject\.cache\Mac\SFX\Menu_Validation_8464AFCD.wem		\Actor-Mixer Hierarchy\Menu\Menu_Validation		939580
+
