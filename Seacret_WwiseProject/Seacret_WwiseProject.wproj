@@ -11427,6 +11427,18 @@
 				<PhysicalFolder Path="Actor-Mixer Hierarchy">
 					<WorkUnit Name="Actor-Mixer Hierarchy" ID="{5EA7BBF8-64C0-4A50-8821-A07E8BE21D68}" PersistMode="Standalone"/>
 				</PhysicalFolder>
+				<PhysicalFolder Path="Actor-Mixer Hierarchy\Game">
+					<WorkUnit Name="Game" ID="{AF31C23F-051F-4521-8ED9-0AB68C904EEB}" PersistMode="Standalone"/>
+				</PhysicalFolder>
+				<PhysicalFolder Path="Actor-Mixer Hierarchy\Game\Levels">
+					<WorkUnit Name="Levels" ID="{F849181C-76C0-458A-9CD9-7B4EB75441C2}" PersistMode="Standalone">
+						<Comment>level specific sounds
+</Comment>
+					</WorkUnit>
+				</PhysicalFolder>
+				<PhysicalFolder Path="Actor-Mixer Hierarchy\NPC">
+					<WorkUnit Name="NPC" ID="{11E84D4F-F81D-4EC0-B806-27D1F08EA386}" PersistMode="Standalone"/>
+				</PhysicalFolder>
 				<PhysicalFolder Path="Attenuations">
 					<WorkUnit Name="Attenuations" ID="{017BDDA0-1BB1-4CE1-8077-79594EC4585C}" PersistMode="Standalone"/>
 				</PhysicalFolder>
