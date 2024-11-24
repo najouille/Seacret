@@ -14,6 +14,61 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Menu_Nav" ID="{A2692958-9EAF-4B60-9159-4E14C0CC68D0}">
+					<ChildrenList>
+						<Action Name="" ID="{DC6664D1-29BD-468F-A991-C5413E1B208B}" ShortID="838094220">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Menu_Nav" ID="{12A11599-5A10-42F6-B953-B37ED6BFF1B4}" WorkUnitID="{C5526A98-8FC3-43A0-A913-AAA551325C8B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Menu_Back" ID="{56AACB95-5481-4BAC-88DC-672CEA447FAA}">
+					<ChildrenList>
+						<Action Name="" ID="{2270052E-845E-440E-8CDB-8ACA67F7EB0C}" ShortID="262600472">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Menu_Back" ID="{52CC1D2C-9E87-4BF5-B786-0D880BCEE9F9}" WorkUnitID="{C5526A98-8FC3-43A0-A913-AAA551325C8B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Menu_Pause" ID="{5AA31AE4-3C46-4ED5-B34A-4AA9B2A55AB5}">
+					<ChildrenList>
+						<Action Name="" ID="{2BC47DE4-6C57-40C7-B031-759002B73528}" ShortID="503451612">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Menu_Pause" ID="{F2CCFD1E-4463-4E15-8769-B37EDCEE040F}" WorkUnitID="{C5526A98-8FC3-43A0-A913-AAA551325C8B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Menu_Ambiance" ID="{F7180B4A-C99A-413E-99E8-96E2DB5EE801}">
+					<ChildrenList>
+						<Action Name="" ID="{7F2942F4-5A7A-43D1-84A7-873B925FB43D}" ShortID="513903329">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Menu_Underwater_Ambiance" ID="{127CAC72-6740-481C-A5E9-2F180FCB59A8}" WorkUnitID="{C5526A98-8FC3-43A0-A913-AAA551325C8B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Game_Start" ID="{321A1B7E-E6C2-437D-BC31-F076CBFD2A97}">
+					<ChildrenList>
+						<Action Name="" ID="{2B110B30-FEEB-4E5C-98FF-7FBDFD0A9739}" ShortID="288107612">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Onboarding_Music" ID="{0A0CF733-937D-4A72-AB21-318108E41AB3}" WorkUnitID="{C5526A98-8FC3-43A0-A913-AAA551325C8B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

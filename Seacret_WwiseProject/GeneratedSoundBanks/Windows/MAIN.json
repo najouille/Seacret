@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{B5436080-6685-492B-9F0D-407F97437144}",
     "Language": "SFX",
-    "Hash": "{46F3B3A2-CDC3-AC64-D54F-521997D00260}",
+    "Hash": "{3B5A4DB1-F3C7-5356-E8C9-0B938CC27DDE}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MAIN",
     "ShortName": "MAIN",
     "Path": "MAIN.bnk",
@@ -22,9 +22,105 @@
       "Location": "Memory",
       "ShortName": "Menu_Validation.wav",
       "CachePath": "SFX/Menu_Validation_8464AFCD.wem"
+     },
+     {
+      "Id": "147782549",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Menu_Underwater_Ambiance.wav",
+      "CachePath": "SFX/Menu_Underwater_Ambiance_FBC78EF0.wem"
+     },
+     {
+      "Id": "267783551",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Menu_Navigation_1.wav",
+      "CachePath": "SFX/Menu_Navigation_1_0F7C35A9.wem"
+     },
+     {
+      "Id": "284723913",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Menu_Navigation_2.wav",
+      "CachePath": "SFX/Menu_Navigation_2_C2B33814.wem"
+     },
+     {
+      "Id": "480667015",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Onboarding_Music.wav",
+      "CachePath": "SFX/Onboarding_Music_818F3B66.wem"
+     },
+     {
+      "Id": "644925676",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Menu_Pause.wav",
+      "CachePath": "SFX/Menu_Pause_A84071D3.wem"
+     },
+     {
+      "Id": "672432319",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Menu_Navigation.wav",
+      "CachePath": "SFX/Menu_Navigation_00D8529F.wem"
+     },
+     {
+      "Id": "778304567",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Menu_Back.wav",
+      "CachePath": "SFX/Menu_Back_E9EADD23.wem"
      }
     ],
     "Events": [
+     {
+      "Id": "733168346",
+      "Name": "Game_Start",
+      "ObjectPath": "\\Events\\Menu\\Game_Start",
+      "GUID": "{321A1B7E-E6C2-437D-BC31-F076CBFD2A97}",
+      "DurationType": "OneShot",
+      "DurationMin": "53.498775",
+      "DurationMax": "53.498775",
+      "MediaRefs": [
+       {
+        "Id": "480667015"
+       }
+      ]
+     },
+     {
+      "Id": "626061955",
+      "Name": "Menu_Ambiance",
+      "ObjectPath": "\\Events\\Menu\\Menu_Ambiance",
+      "GUID": "{F7180B4A-C99A-413E-99E8-96E2DB5EE801}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "147782549"
+       }
+      ]
+     },
+     {
+      "Id": "3063554414",
+      "Name": "Menu_Back",
+      "ObjectPath": "\\Events\\Menu\\Menu_Back",
+      "GUID": "{56AACB95-5481-4BAC-88DC-672CEA447FAA}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.049072",
+      "DurationMax": "2.049072",
+      "MediaRefs": [
+       {
+        "Id": "778304567"
+       }
+      ]
+     },
      {
       "Id": "4046753069",
       "Name": "Menu_Confirm",
@@ -38,10 +134,44 @@
         "Id": "74272501"
        }
       ]
+     },
+     {
+      "Id": "2684797902",
+      "Name": "Menu_Nav",
+      "ObjectPath": "\\Events\\Menu\\Menu_Nav",
+      "GUID": "{A2692958-9EAF-4B60-9159-4E14C0CC68D0}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.3432226",
+      "DurationMax": "4.272216",
+      "MediaRefs": [
+       {
+        "Id": "267783551"
+       },
+       {
+        "Id": "284723913"
+       },
+       {
+        "Id": "672432319"
+       }
+      ]
+     },
+     {
+      "Id": "2170009975",
+      "Name": "Menu_Pause",
+      "ObjectPath": "\\Events\\Menu\\Menu_Pause",
+      "GUID": "{5AA31AE4-3C46-4ED5-B34A-4AA9B2A55AB5}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.1408887",
+      "DurationMax": "4.1408887",
+      "MediaRefs": [
+       {
+        "Id": "644925676"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{0248A253-90DC-988D-48A4-44EB0374E09F}"
+  "FileHash": "{F34ED4DD-04AD-65DA-7A56-97E83D020C90}"
  }
 }

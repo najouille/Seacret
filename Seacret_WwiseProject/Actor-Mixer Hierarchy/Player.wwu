@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3F5BBC12-FE6D-4E4D-B499-7AAF36244E9B}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Player" ID="{3F5BBC12-FE6D-4E4D-B499-7AAF36244E9B}" PersistMode="Standalone">
+			<Comment>for harpoon, breathing etc
+</Comment>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
