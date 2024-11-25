@@ -213,6 +213,12 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="Onboarding_Music" ID="{1238795C-6900-432C-B407-E49C618D6094}">
+							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="5.461"/>
+								<Property Name="FadeOutShape" Type="int16" Value="9"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="12.7887715721275"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>Onboarding_Music.wav</AudioFile>
 							<MediaIDList>
@@ -220,6 +226,31 @@
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{606759EE-A583-4B69-AD03-D27E5A29D49A}" ShortID="501651836">
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom CreatedFrom="{71B802A7-03E2-4998-B241-B2B84FE9DDFF}">
+													<Effect Name="Medium_Room1 (Custom)" ID="{490BE32E-B448-4E77-B828-935326B00729}" ShortID="760105351" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+														<PropertyList>
+															<Property Name="DryLevel" Type="Real32" Value="-35.3"/>
+															<Property Name="HFRatio" Type="Real32" Value="6"/>
+															<Property Name="NumberOfDelays" Type="int32" Value="12"/>
+															<Property Name="ReverbTime" Type="Real32" Value="2"/>
+															<Property Name="WetLevel" Type="Real32" Value="-19"/>
+														</PropertyList>
+													</Effect>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 					<ActiveSourceList>
 						<ActiveSource Name="Onboarding_Music" ID="{1238795C-6900-432C-B407-E49C618D6094}" Platform="Linked"/>
 					</ActiveSourceList>
