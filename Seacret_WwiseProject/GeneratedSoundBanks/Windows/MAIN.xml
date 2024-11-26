@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{B5436080-6685-492B-9F0D-407F97437144}" Language="SFX" Hash="{46F3B3A2-CDC3-AC64-D54F-521997D00260}">
+		<SoundBank Id="3161908922" Type="User" GUID="{B5436080-6685-492B-9F0D-407F97437144}" Language="SFX" Hash="{3B5A4DB1-F3C7-5356-E8C9-0B938CC27DDE}">
 			<ObjectPath>\SoundBanks\Default Work Unit\MAIN</ObjectPath>
 			<ShortName>MAIN</ShortName>
 			<Path>MAIN.bnk</Path>
@@ -10,15 +10,70 @@
 					<ShortName>Menu_Validation.wav</ShortName>
 					<CachePath>SFX/Menu_Validation_8464AFCD.wem</CachePath>
 				</File>
+				<File Id="147782549" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Menu_Underwater_Ambiance.wav</ShortName>
+					<CachePath>SFX/Menu_Underwater_Ambiance_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="267783551" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Menu_Navigation_1.wav</ShortName>
+					<CachePath>SFX/Menu_Navigation_1_0F7C35A9.wem</CachePath>
+				</File>
+				<File Id="284723913" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Menu_Navigation_2.wav</ShortName>
+					<CachePath>SFX/Menu_Navigation_2_C2B33814.wem</CachePath>
+				</File>
+				<File Id="480667015" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Onboarding_Music.wav</ShortName>
+					<CachePath>SFX/Onboarding_Music_818F3B66.wem</CachePath>
+				</File>
+				<File Id="644925676" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Menu_Pause.wav</ShortName>
+					<CachePath>SFX/Menu_Pause_A84071D3.wem</CachePath>
+				</File>
+				<File Id="672432319" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Menu_Navigation.wav</ShortName>
+					<CachePath>SFX/Menu_Navigation_00D8529F.wem</CachePath>
+				</File>
+				<File Id="778304567" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Menu_Back.wav</ShortName>
+					<CachePath>SFX/Menu_Back_E9EADD23.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
+				<Event Id="733168346" Name="Game_Start" ObjectPath="\Events\Menu\Game_Start" GUID="{321A1B7E-E6C2-437D-BC31-F076CBFD2A97}" DurationType="OneShot" DurationMin="53.498775" DurationMax="53.498775">
+					<MediaRefs>
+						<MediaRef Id="480667015"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="626061955" Name="Menu_Ambiance" ObjectPath="\Events\Menu\Menu_Ambiance" GUID="{F7180B4A-C99A-413E-99E8-96E2DB5EE801}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="147782549"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3063554414" Name="Menu_Back" ObjectPath="\Events\Menu\Menu_Back" GUID="{56AACB95-5481-4BAC-88DC-672CEA447FAA}" DurationType="OneShot" DurationMin="2.049072" DurationMax="2.049072">
+					<MediaRefs>
+						<MediaRef Id="778304567"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="4046753069" Name="Menu_Confirm" ObjectPath="\Events\Menu\Menu_Confirm" GUID="{E628941F-793C-43D1-872A-1F4F9E46FD0D}" DurationType="OneShot" DurationMin="4.8931384" DurationMax="4.8931384">
 					<MediaRefs>
 						<MediaRef Id="74272501"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2684797902" Name="Menu_Nav" ObjectPath="\Events\Menu\Menu_Nav" GUID="{A2692958-9EAF-4B60-9159-4E14C0CC68D0}" DurationType="OneShot" DurationMin="3.3432226" DurationMax="4.272216">
+					<MediaRefs>
+						<MediaRef Id="267783551"/>
+						<MediaRef Id="284723913"/>
+						<MediaRef Id="672432319"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2170009975" Name="Menu_Pause" ObjectPath="\Events\Menu\Menu_Pause" GUID="{5AA31AE4-3C46-4ED5-B34A-4AA9B2A55AB5}" DurationType="OneShot" DurationMin="4.1408887" DurationMax="4.1408887">
+					<MediaRefs>
+						<MediaRef Id="644925676"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D3BBD6F3-C569-6B46-F224-BAB87EAA4FA1}</FileHash>
+	<FileHash>{7AC64B9A-4E07-890D-C369-E536C0FFBDC6}</FileHash>
 </SoundBanksInfo>

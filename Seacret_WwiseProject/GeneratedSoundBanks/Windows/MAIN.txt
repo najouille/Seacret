@@ -1,6 +1,18 @@
 Event	ID	Name			Wwise Object Path	Notes
+	626061955	Menu_Ambiance			\Menu\Menu_Ambiance	
+	733168346	Game_Start			\Menu\Game_Start	
+	2170009975	Menu_Pause			\Menu\Menu_Pause	
+	2684797902	Menu_Nav			\Menu\Menu_Nav	
+	3063554414	Menu_Back			\Menu\Menu_Back	
 	4046753069	Menu_Confirm			\Menu\Menu_Confirm	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	74272501	Menu_Validation	Y:\Documents\GitHub\Seacret\Seacret_WwiseProject\.cache\Windows\SFX\Menu_Validation_8464AFCD.wem		\Actor-Mixer Hierarchy\Menu\Menu_Validation		939580
+	147782549	Menu_Underwater_Ambiance	Y:\Documents\GitHub\Seacret\Seacret_WwiseProject\.cache\Windows\SFX\Menu_Underwater_Ambiance_FBC78EF0.wem		\Actor-Mixer Hierarchy\Menu\Menu_Underwater_Ambiance		3664760
+	267783551	Menu_Navigation_1	Y:\Documents\GitHub\Seacret\Seacret_WwiseProject\.cache\Windows\SFX\Menu_Navigation_1_0F7C35A9.wem		\Actor-Mixer Hierarchy\Menu\Menu_Nav\Menu_Navigation_1		641996
+	284723913	Menu_Navigation_2	Y:\Documents\GitHub\Seacret\Seacret_WwiseProject\.cache\Windows\SFX\Menu_Navigation_2_C2B33814.wem		\Actor-Mixer Hierarchy\Menu\Menu_Nav\Menu_Navigation_2		729220
+	480667015	Onboarding_Music	Y:\Documents\GitHub\Seacret\Seacret_WwiseProject\.cache\Windows\SFX\Onboarding_Music_818F3B66.wem		\Actor-Mixer Hierarchy\Menu\Onboarding_Music		9437280
+	644925676	Menu_Pause	Y:\Documents\GitHub\Seacret\Seacret_WwiseProject\.cache\Windows\SFX\Menu_Pause_A84071D3.wem		\Actor-Mixer Hierarchy\Menu\Menu_Pause		795148
+	672432319	Menu_Navigation	Y:\Documents\GitHub\Seacret\Seacret_WwiseProject\.cache\Windows\SFX\Menu_Navigation_00D8529F.wem		\Actor-Mixer Hierarchy\Menu\Menu_Nav\Menu_Navigation		820360
+	778304567	Menu_Back	Y:\Documents\GitHub\Seacret\Seacret_WwiseProject\.cache\Windows\SFX\Menu_Back_E9EADD23.wem		\Actor-Mixer Hierarchy\Menu\Menu_Back		393516
 
