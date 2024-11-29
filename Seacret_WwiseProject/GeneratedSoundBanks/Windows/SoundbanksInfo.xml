@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{B6CBD692-12EC-CDBA-0932-48F63C40C91F}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{E7DD5D72-E980-BC5C-61F5-A88AAFFF06D1}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -23,14 +23,14 @@
 				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" GUID="{B5436080-6685-492B-9F0D-407F97437144}" Language="SFX" Hash="{3B5A4DB1-F3C7-5356-E8C9-0B938CC27DDE}">
+		<SoundBank Id="3161908922" Type="User" GUID="{B5436080-6685-492B-9F0D-407F97437144}" Language="SFX" Hash="{353D14B0-2547-E2F0-9D48-5924972F8721}">
 			<ObjectPath>\SoundBanks\Default Work Unit\MAIN</ObjectPath>
 			<ShortName>MAIN</ShortName>
 			<Path>MAIN.bnk</Path>
 			<Media>
 				<File Id="74272501" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Menu_Validation.wav</ShortName>
-					<CachePath>SFX/Menu_Validation_8464AFCD.wem</CachePath>
+					<CachePath>SFX/Menu_Validation_9DD2C486.wem</CachePath>
 				</File>
 				<File Id="147782549" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Menu_Underwater_Ambiance.wav</ShortName>
@@ -38,34 +38,57 @@
 				</File>
 				<File Id="267783551" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Menu_Navigation_1.wav</ShortName>
-					<CachePath>SFX/Menu_Navigation_1_0F7C35A9.wem</CachePath>
+					<CachePath>SFX/Menu_Navigation_1_DBCEB0EC.wem</CachePath>
+				</File>
+				<File Id="278998757" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Character_Dash.wav</ShortName>
+					<CachePath>SFX/Character_Dash_AD65BA48.wem</CachePath>
 				</File>
 				<File Id="284723913" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Menu_Navigation_2.wav</ShortName>
-					<CachePath>SFX/Menu_Navigation_2_C2B33814.wem</CachePath>
+					<CachePath>SFX/Menu_Navigation_2_AA403907.wem</CachePath>
 				</File>
 				<File Id="480667015" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Onboarding_Music.wav</ShortName>
-					<CachePath>SFX/Onboarding_Music_818F3B66.wem</CachePath>
+					<CachePath>SFX/Onboarding_Music_FFE1D333.wem</CachePath>
 				</File>
 				<File Id="644925676" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Menu_Pause.wav</ShortName>
-					<CachePath>SFX/Menu_Pause_A84071D3.wem</CachePath>
+					<CachePath>SFX/Menu_Pause_D4D8190E.wem</CachePath>
 				</File>
 				<File Id="672432319" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Menu_Navigation.wav</ShortName>
-					<CachePath>SFX/Menu_Navigation_00D8529F.wem</CachePath>
+					<CachePath>SFX/Menu_Navigation_C7CEB259.wem</CachePath>
 				</File>
 				<File Id="778304567" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Menu_Back.wav</ShortName>
-					<CachePath>SFX/Menu_Back_E9EADD23.wem</CachePath>
+					<CachePath>SFX/Menu_Back_54DAF1EF.wem</CachePath>
+				</File>
+				<File Id="969413322" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Character_Reach_Button_Press.wav</ShortName>
+					<CachePath>SFX/Character_Reach_Button_Press_2763CB60.wem</CachePath>
 				</File>
 			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="760105351" Name="Medium_Room1 (Custom)" ObjectPath="\Actor-Mixer Hierarchy\Menu\Onboarding_Music\[Effect Slot [0]: (Matrix Reverb)]\Medium_Room1 (Custom)" GUID="{490BE32E-B448-4E77-B828-935326B00729}" LibName="Wwise Matrix Reverb" LibId="7536643"/>
+				</Custom>
+			</Plugins>
 			<Events>
-				<Event Id="733168346" Name="Game_Start" ObjectPath="\Events\Menu\Game_Start" GUID="{321A1B7E-E6C2-437D-BC31-F076CBFD2A97}" DurationType="OneShot" DurationMin="53.498775" DurationMax="53.498775">
+				<Event Id="2698747613" Name="Button_Press" ObjectPath="\Events\Player\Button_Press" GUID="{B32A07F9-302B-4182-90FD-EB39C7CFDD77}" DurationType="OneShot" DurationMin="0.30555555" DurationMax="0.30555555">
+					<MediaRefs>
+						<MediaRef Id="969413322"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="733168346" Name="Game_Start" ObjectPath="\Events\Menu\Game_Start" GUID="{321A1B7E-E6C2-437D-BC31-F076CBFD2A97}" DurationType="OneShot" DurationMin="12.788772" DurationMax="12.788772">
 					<MediaRefs>
 						<MediaRef Id="480667015"/>
 					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="760105351"/>
+						</Custom>
+					</PluginRefs>
 				</Event>
 				<Event Id="626061955" Name="Menu_Ambiance" ObjectPath="\Events\Menu\Menu_Ambiance" GUID="{F7180B4A-C99A-413E-99E8-96E2DB5EE801}" DurationType="Infinite">
 					<MediaRefs>
@@ -94,8 +117,13 @@
 						<MediaRef Id="644925676"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2394582229" Name="Player_Dash" ObjectPath="\Events\Player\Player_Dash" GUID="{91EA853C-965B-4C4A-9900-8CB563066F15}" DurationType="OneShot" DurationMin="1.1463481" DurationMax="1.1463481">
+					<MediaRefs>
+						<MediaRef Id="278998757"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F1B8573C-9F0C-D1F9-CB6B-B8DD421A280C}</FileHash>
+	<FileHash>{F33E28BE-459D-F2A4-36E6-40CDC4F6BA1E}</FileHash>
 </SoundBanksInfo>
