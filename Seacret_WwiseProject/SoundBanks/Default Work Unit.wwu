@@ -9,6 +9,7 @@
 						<ObjectRef Name="Button_Press" ID="{B32A07F9-302B-4182-90FD-EB39C7CFDD77}" WorkUnitID="{66A84312-B16F-431F-B3B5-BBF3C8D11F13}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Game_Start" ID="{321A1B7E-E6C2-437D-BC31-F076CBFD2A97}" WorkUnitID="{8BE9884C-15DE-4F2C-8CA0-795A1B9DFF5C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Menu_Confirm" ID="{E628941F-793C-43D1-872A-1F4F9E46FD0D}" WorkUnitID="{8BE9884C-15DE-4F2C-8CA0-795A1B9DFF5C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="M8_TakeDamage" ID="{9C72C75A-01A7-4AAF-B201-F46BFC7EF13C}" WorkUnitID="{BFFB3B88-E5AD-4A87-A7A4-CF164DE119C5}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Menu_Nav" ID="{A2692958-9EAF-4B60-9159-4E14C0CC68D0}" WorkUnitID="{8BE9884C-15DE-4F2C-8CA0-795A1B9DFF5C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Menu_Back" ID="{56AACB95-5481-4BAC-88DC-672CEA447FAA}" WorkUnitID="{8BE9884C-15DE-4F2C-8CA0-795A1B9DFF5C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player_Dash" ID="{91EA853C-965B-4C4A-9900-8CB563066F15}" WorkUnitID="{66A84312-B16F-431F-B3B5-BBF3C8D11F13}" Origin="Manual" Filter="7"/>

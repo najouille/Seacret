@@ -56,7 +56,7 @@
     "Type": "User",
     "GUID": "{B5436080-6685-492B-9F0D-407F97437144}",
     "Language": "SFX",
-    "Hash": "{353D14B0-2547-E2F0-9D48-5924972F8721}",
+    "Hash": "{49955677-9417-9A0F-6525-234BE4857532}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MAIN",
     "ShortName": "MAIN",
     "Path": "MAIN.bnk",
@@ -91,7 +91,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Character_Dash.wav",
-      "CachePath": "SFX/Character_Dash_AD65BA48.wem"
+      "CachePath": "SFX/Character_Dash_8BAF32D6.wem"
      },
      {
       "Id": "284723913",
@@ -126,6 +126,14 @@
       "CachePath": "SFX/Menu_Navigation_C7CEB259.wem"
      },
      {
+      "Id": "716256250",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "M-8_Robot_Damaged_Bugging.wav",
+      "CachePath": "SFX/M-8_Robot_Damaged_Bugging_818F3B66.wem"
+     },
+     {
       "Id": "778304567",
       "Language": "SFX",
       "Streaming": "false",
@@ -139,7 +147,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Character_Reach_Button_Press.wav",
-      "CachePath": "SFX/Character_Reach_Button_Press_2763CB60.wem"
+      "CachePath": "SFX/Character_Reach_Button_Press_A907EE33.wem"
      }
     ],
     "Plugins": {
@@ -189,6 +197,20 @@
         }
        ]
       }
+     },
+     {
+      "Id": "3984496399",
+      "Name": "M8_TakeDamage",
+      "ObjectPath": "\\Events\\NPC\\M8\\M8_TakeDamage",
+      "GUID": "{9C72C75A-01A7-4AAF-B201-F46BFC7EF13C}",
+      "DurationType": "OneShot",
+      "DurationMin": "5",
+      "DurationMax": "5",
+      "MediaRefs": [
+       {
+        "Id": "716256250"
+       }
+      ]
      },
      {
       "Id": "626061955",
@@ -281,6 +303,6 @@
     ]
    }
   ],
-  "FileHash": "{9C9F4AB1-DAB4-46B1-CB20-807C7AD6AAA4}"
+  "FileHash": "{319FD888-3C58-743C-E55E-0650879126B4}"
  }
 }

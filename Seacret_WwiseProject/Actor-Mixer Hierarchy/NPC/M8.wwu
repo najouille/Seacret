@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{73BB30F3-9AF4-4FCA-AA01-5EC834ED320F}" SchemaVersion="119">
 	<AudioObjects>
-		<WorkUnit Name="M8" ID="{73BB30F3-9AF4-4FCA-AA01-5EC834ED320F}" PersistMode="Standalone"/>
+		<WorkUnit Name="M8" ID="{73BB30F3-9AF4-4FCA-AA01-5EC834ED320F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="M-8_Robot_Damaged_Bugging" ID="{33E0008B-A234-4B85-A947-02F3CF6CDDE9}" ShortID="619530603">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D53B1682-D16A-423B-ACE3-AFB06CF40B1C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FE667205-52D2-4F4A-A580-1C92346B6194}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="M-8_Robot_Damaged_Bugging" ID="{86E45649-F35E-4CD7-B13B-9FE5DBD6669D}">
+							<PropertyList>
+								<Property Name="LoopBegin" Type="Real64" Value="0"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>M-8_Robot_Damaged_Bugging.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="716256250"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="M-8_Robot_Damaged_Bugging" ID="{86E45649-F35E-4CD7-B13B-9FE5DBD6669D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
