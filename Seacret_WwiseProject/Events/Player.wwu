@@ -25,6 +25,65 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="Harpoon" ID="{248F13BA-75C9-4066-BE91-629AAA6C2FDF}" ShortID="562831786">
+					<ChildrenList>
+						<Event Name="Harpoon_Fire" ID="{4B620526-3411-4DF8-9609-B8AD8D32C95D}">
+							<ChildrenList>
+								<Action Name="" ID="{A4156723-CD28-41D5-AC40-55C5FD9769E6}" ShortID="56600126">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Character_Harpoon_Firing" ID="{C7304BB4-D056-4BC6-BDBA-5E2AB0B92CB0}" WorkUnitID="{3F5BBC12-FE6D-4E4D-B499-7AAF36244E9B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Harpoon_Retract" ID="{16AD29F3-5EE1-413A-97DE-CAF94BCBC67D}">
+							<ChildrenList>
+								<Action Name="" ID="{B6B93113-99DC-4448-B787-BF04395E2134}" ShortID="359439542">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Character_Harpoon_Rope_Retracted" ID="{CE0C04DB-EE4C-4DA2-BA9F-C4AEFD7B8271}" WorkUnitID="{3F5BBC12-FE6D-4E4D-B499-7AAF36244E9B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Harpoon_Hit_Wood" ID="{1CFB75F5-CFD6-4930-B010-E67A3A6C9951}">
+							<ChildrenList>
+								<Action Name="" ID="{69B2B2B1-D702-4183-8F85-9E03588779A1}" ShortID="445731791">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Character_Harpoon_Hit_Wood_Basic" ID="{07B34E3A-CE49-484F-90AE-688B76B26D1B}" WorkUnitID="{3F5BBC12-FE6D-4E4D-B499-7AAF36244E9B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Harpoon_Hit_Metal" ID="{93BFCA37-21F3-410D-ABE1-069689840237}">
+							<ChildrenList>
+								<Action Name="" ID="{7641362F-017E-4D6E-9F23-1E820FE8CB16}" ShortID="809385641">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Character_Harpoon_Hit_Metal_Basic" ID="{D0C8F199-1A38-465E-9F77-579F34F4F022}" WorkUnitID="{3F5BBC12-FE6D-4E4D-B499-7AAF36244E9B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Harpoon_Hit_Wood_Bounce" ID="{F6D95672-D53E-484C-AF7B-B69B89CAE632}">
+							<ChildrenList>
+								<Action Name="" ID="{4584B644-F044-4D01-942E-84EB6B100F91}" ShortID="690015987">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Harpoon_Hit_Wood_Bounce" ID="{691617B0-B3E1-48CB-85BD-9883AA5F268E}" WorkUnitID="{3F5BBC12-FE6D-4E4D-B499-7AAF36244E9B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

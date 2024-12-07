@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{B5436080-6685-492B-9F0D-407F97437144}",
     "Language": "SFX",
-    "Hash": "{49955677-9417-9A0F-6525-234BE4857532}",
+    "Hash": "{1171E83E-9B9F-C128-D27F-F89982CA3D39}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MAIN",
     "ShortName": "MAIN",
     "Path": "MAIN.bnk",
@@ -24,12 +24,36 @@
       "CachePath": "SFX/Menu_Validation_9DD2C486.wem"
      },
      {
+      "Id": "89664466",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Character_Harpoon_Hit_Metal_Basic.wav",
+      "CachePath": "SFX/Character_Harpoon_Hit_Metal_Basic_E5A5003A.wem"
+     },
+     {
       "Id": "147782549",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Menu_Underwater_Ambiance.wav",
       "CachePath": "SFX/Menu_Underwater_Ambiance_FBC78EF0.wem"
+     },
+     {
+      "Id": "197171966",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Character_Harpoon_Hit_Wood_Bounce.wav",
+      "CachePath": "SFX/Character_Harpoon_Hit_Wood_Bounce_64872A63.wem"
+     },
+     {
+      "Id": "249225683",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Character_Harpoon_Rope_Retracted.wav",
+      "CachePath": "SFX/Character_Harpoon_Rope_Retracted_7AE994F3.wem"
      },
      {
       "Id": "267783551",
@@ -64,6 +88,22 @@
       "CachePath": "SFX/Onboarding_Music_FFE1D333.wem"
      },
      {
+      "Id": "486718626",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Character_Harpoon_Hit_Wood_Basic.wav",
+      "CachePath": "SFX/Character_Harpoon_Hit_Wood_Basic_99A9A43F.wem"
+     },
+     {
+      "Id": "583229775",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Character_Harpoon_Hit_Wood_Bounce_1.wav",
+      "CachePath": "SFX/Character_Harpoon_Hit_Wood_Bounce_1_1709B56F.wem"
+     },
+     {
       "Id": "644925676",
       "Language": "SFX",
       "Streaming": "false",
@@ -80,6 +120,14 @@
       "CachePath": "SFX/Menu_Navigation_C7CEB259.wem"
      },
      {
+      "Id": "688482165",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Character_Harpoon_Hit_Wood_Bounce_2.wav",
+      "CachePath": "SFX/Character_Harpoon_Hit_Wood_Bounce_2_3661A460.wem"
+     },
+     {
       "Id": "716256250",
       "Language": "SFX",
       "Streaming": "false",
@@ -94,6 +142,14 @@
       "Location": "Memory",
       "ShortName": "Menu_Back.wav",
       "CachePath": "SFX/Menu_Back_54DAF1EF.wem"
+     },
+     {
+      "Id": "795238183",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Character_Harpoon_Firing.wav",
+      "CachePath": "SFX/Character_Harpoon_Firing_3BE10DB3.wem"
      },
      {
       "Id": "969413322",
@@ -151,6 +207,82 @@
         }
        ]
       }
+     },
+     {
+      "Id": "2319975221",
+      "Name": "Harpoon_Fire",
+      "ObjectPath": "\\Events\\Player\\Harpoon\\Harpoon_Fire",
+      "GUID": "{4B620526-3411-4DF8-9609-B8AD8D32C95D}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.7423838",
+      "DurationMax": "1.7423838",
+      "MediaRefs": [
+       {
+        "Id": "795238183"
+       }
+      ]
+     },
+     {
+      "Id": "728789488",
+      "Name": "Harpoon_Hit_Metal",
+      "ObjectPath": "\\Events\\Player\\Harpoon\\Harpoon_Hit_Metal",
+      "GUID": "{93BFCA37-21F3-410D-ABE1-069689840237}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.5046296",
+      "DurationMax": "1.5046296",
+      "MediaRefs": [
+       {
+        "Id": "89664466"
+       }
+      ]
+     },
+     {
+      "Id": "1279314012",
+      "Name": "Harpoon_Hit_Wood",
+      "ObjectPath": "\\Events\\Player\\Harpoon\\Harpoon_Hit_Wood",
+      "GUID": "{1CFB75F5-CFD6-4930-B010-E67A3A6C9951}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.4981812",
+      "DurationMax": "1.4981812",
+      "MediaRefs": [
+       {
+        "Id": "486718626"
+       }
+      ]
+     },
+     {
+      "Id": "55012563",
+      "Name": "Harpoon_Hit_Wood_Bounce",
+      "ObjectPath": "\\Events\\Player\\Harpoon\\Harpoon_Hit_Wood_Bounce",
+      "GUID": "{F6D95672-D53E-484C-AF7B-B69B89CAE632}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.9814361",
+      "DurationMax": "2.3667154",
+      "MediaRefs": [
+       {
+        "Id": "197171966"
+       },
+       {
+        "Id": "583229775"
+       },
+       {
+        "Id": "688482165"
+       }
+      ]
+     },
+     {
+      "Id": "428938660",
+      "Name": "Harpoon_Retract",
+      "ObjectPath": "\\Events\\Player\\Harpoon\\Harpoon_Retract",
+      "GUID": "{16AD29F3-5EE1-413A-97DE-CAF94BCBC67D}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.3209444",
+      "DurationMax": "1.3209444",
+      "MediaRefs": [
+       {
+        "Id": "249225683"
+       }
+      ]
      },
      {
       "Id": "3984496399",
@@ -257,6 +389,6 @@
     ]
    }
   ],
-  "FileHash": "{A7B0063A-F4D5-8CB2-B931-115272361798}"
+  "FileHash": "{18DE409D-3531-606B-EE6E-8AB215418B20}"
  }
 }

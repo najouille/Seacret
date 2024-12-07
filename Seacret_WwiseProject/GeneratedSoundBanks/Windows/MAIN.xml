@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{B5436080-6685-492B-9F0D-407F97437144}" Language="SFX" Hash="{49955677-9417-9A0F-6525-234BE4857532}">
+		<SoundBank Id="3161908922" Type="User" GUID="{B5436080-6685-492B-9F0D-407F97437144}" Language="SFX" Hash="{1171E83E-9B9F-C128-D27F-F89982CA3D39}">
 			<ObjectPath>\SoundBanks\Default Work Unit\MAIN</ObjectPath>
 			<ShortName>MAIN</ShortName>
 			<Path>MAIN.bnk</Path>
@@ -10,9 +10,21 @@
 					<ShortName>Menu_Validation.wav</ShortName>
 					<CachePath>SFX/Menu_Validation_9DD2C486.wem</CachePath>
 				</File>
+				<File Id="89664466" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Character_Harpoon_Hit_Metal_Basic.wav</ShortName>
+					<CachePath>SFX/Character_Harpoon_Hit_Metal_Basic_E5A5003A.wem</CachePath>
+				</File>
 				<File Id="147782549" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Menu_Underwater_Ambiance.wav</ShortName>
 					<CachePath>SFX/Menu_Underwater_Ambiance_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="197171966" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Character_Harpoon_Hit_Wood_Bounce.wav</ShortName>
+					<CachePath>SFX/Character_Harpoon_Hit_Wood_Bounce_64872A63.wem</CachePath>
+				</File>
+				<File Id="249225683" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Character_Harpoon_Rope_Retracted.wav</ShortName>
+					<CachePath>SFX/Character_Harpoon_Rope_Retracted_7AE994F3.wem</CachePath>
 				</File>
 				<File Id="267783551" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Menu_Navigation_1.wav</ShortName>
@@ -30,6 +42,14 @@
 					<ShortName>Onboarding_Music.wav</ShortName>
 					<CachePath>SFX/Onboarding_Music_FFE1D333.wem</CachePath>
 				</File>
+				<File Id="486718626" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Character_Harpoon_Hit_Wood_Basic.wav</ShortName>
+					<CachePath>SFX/Character_Harpoon_Hit_Wood_Basic_99A9A43F.wem</CachePath>
+				</File>
+				<File Id="583229775" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Character_Harpoon_Hit_Wood_Bounce_1.wav</ShortName>
+					<CachePath>SFX/Character_Harpoon_Hit_Wood_Bounce_1_1709B56F.wem</CachePath>
+				</File>
 				<File Id="644925676" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Menu_Pause.wav</ShortName>
 					<CachePath>SFX/Menu_Pause_D4D8190E.wem</CachePath>
@@ -38,6 +58,10 @@
 					<ShortName>Menu_Navigation.wav</ShortName>
 					<CachePath>SFX/Menu_Navigation_C7CEB259.wem</CachePath>
 				</File>
+				<File Id="688482165" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Character_Harpoon_Hit_Wood_Bounce_2.wav</ShortName>
+					<CachePath>SFX/Character_Harpoon_Hit_Wood_Bounce_2_3661A460.wem</CachePath>
+				</File>
 				<File Id="716256250" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>M-8_Robot_Damaged_Bugging.wav</ShortName>
 					<CachePath>SFX/M-8_Robot_Damaged_Bugging_818F3B66.wem</CachePath>
@@ -45,6 +69,10 @@
 				<File Id="778304567" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Menu_Back.wav</ShortName>
 					<CachePath>SFX/Menu_Back_54DAF1EF.wem</CachePath>
+				</File>
+				<File Id="795238183" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Character_Harpoon_Firing.wav</ShortName>
+					<CachePath>SFX/Character_Harpoon_Firing_3BE10DB3.wem</CachePath>
 				</File>
 				<File Id="969413322" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character_Reach_Button_Press.wav</ShortName>
@@ -71,6 +99,33 @@
 							<PluginRef Id="760105351"/>
 						</Custom>
 					</PluginRefs>
+				</Event>
+				<Event Id="2319975221" Name="Harpoon_Fire" ObjectPath="\Events\Player\Harpoon\Harpoon_Fire" GUID="{4B620526-3411-4DF8-9609-B8AD8D32C95D}" DurationType="OneShot" DurationMin="1.7423838" DurationMax="1.7423838">
+					<MediaRefs>
+						<MediaRef Id="795238183"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="728789488" Name="Harpoon_Hit_Metal" ObjectPath="\Events\Player\Harpoon\Harpoon_Hit_Metal" GUID="{93BFCA37-21F3-410D-ABE1-069689840237}" DurationType="OneShot" DurationMin="1.5046296" DurationMax="1.5046296">
+					<MediaRefs>
+						<MediaRef Id="89664466"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1279314012" Name="Harpoon_Hit_Wood" ObjectPath="\Events\Player\Harpoon\Harpoon_Hit_Wood" GUID="{1CFB75F5-CFD6-4930-B010-E67A3A6C9951}" DurationType="OneShot" DurationMin="1.4981812" DurationMax="1.4981812">
+					<MediaRefs>
+						<MediaRef Id="486718626"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="55012563" Name="Harpoon_Hit_Wood_Bounce" ObjectPath="\Events\Player\Harpoon\Harpoon_Hit_Wood_Bounce" GUID="{F6D95672-D53E-484C-AF7B-B69B89CAE632}" DurationType="OneShot" DurationMin="1.9814361" DurationMax="2.3667154">
+					<MediaRefs>
+						<MediaRef Id="197171966"/>
+						<MediaRef Id="583229775"/>
+						<MediaRef Id="688482165"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="428938660" Name="Harpoon_Retract" ObjectPath="\Events\Player\Harpoon\Harpoon_Retract" GUID="{16AD29F3-5EE1-413A-97DE-CAF94BCBC67D}" DurationType="OneShot" DurationMin="1.3209444" DurationMax="1.3209444">
+					<MediaRefs>
+						<MediaRef Id="249225683"/>
+					</MediaRefs>
 				</Event>
 				<Event Id="3984496399" Name="M8_TakeDamage" ObjectPath="\Events\NPC\M8\M8_TakeDamage" GUID="{9C72C75A-01A7-4AAF-B201-F46BFC7EF13C}" DurationType="OneShot" DurationMin="5" DurationMax="5">
 					<MediaRefs>
@@ -112,5 +167,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{5B840441-6D47-BEB4-185E-5065E9C9A3E9}</FileHash>
+	<FileHash>{0785FB67-4940-7A97-173B-88249CE6259D}</FileHash>
 </SoundBanksInfo>

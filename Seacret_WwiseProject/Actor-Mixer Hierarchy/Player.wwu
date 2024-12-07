@@ -59,6 +59,7 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="Character_Reach_Lever_Up_Down_Horizontal_Switch" ID="{E8895A02-645F-4AAD-A7C6-F25969CB9CBF}" ShortID="751227531">
+					<Comment>NO EVENT</Comment>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D53B1682-D16A-423B-ACE3-AFB06CF40B1C}"/>
@@ -81,6 +82,7 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="Character_Reach_Lever_Up_Down_Vertical_Switch" ID="{0D7BEE80-3290-4B6D-8584-2369E1032CB8}" ShortID="95622459">
+					<Comment>NO EVENT</Comment>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D53B1682-D16A-423B-ACE3-AFB06CF40B1C}"/>
@@ -102,6 +104,311 @@
 						<ActiveSource Name="Character_Reach_Lever_Up_Down_Vertical_Switch" ID="{55C8298D-99C0-417E-B5FE-814A53A88F66}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Folder Name="Harpoon" ID="{C586C86A-FB66-4152-BA10-C9A6FB755855}" ShortID="463008327">
+					<ChildrenList>
+						<Sound Name="Character_Harpoon_Rope_Launched_long" ID="{75D0638D-A652-4DCA-AF12-8393E4A4FEC7}" ShortID="998174060">
+							<Comment>NO EVENT</Comment>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D53B1682-D16A-423B-ACE3-AFB06CF40B1C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FE667205-52D2-4F4A-A580-1C92346B6194}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Character_Harpoon_Rope_Launched_long" ID="{877BEE57-10B9-4ED2-AE13-DC5F18126111}">
+									<Language>SFX</Language>
+									<AudioFile> Character_Harpoon_Rope_Launched_long.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="593608764"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Character_Harpoon_Rope_Launched_long" ID="{877BEE57-10B9-4ED2-AE13-DC5F18126111}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Character_Harpoon_Rope_Launched_short" ID="{F09025C5-4D43-46B0-BF2F-1AACD96BAFD1}" ShortID="368640992">
+							<Comment>NO EVENT</Comment>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D53B1682-D16A-423B-ACE3-AFB06CF40B1C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FE667205-52D2-4F4A-A580-1C92346B6194}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Character_Harpoon_Rope_Launched_short" ID="{A6A77119-55A5-4DB5-A727-520D2E186A5D}">
+									<Language>SFX</Language>
+									<AudioFile> Character_Harpoon_Rope_Launched_short.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="694510829"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Character_Harpoon_Rope_Launched_short" ID="{A6A77119-55A5-4DB5-A727-520D2E186A5D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Character_Harpoon_Firing" ID="{C7304BB4-D056-4BC6-BDBA-5E2AB0B92CB0}" ShortID="167557175">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D53B1682-D16A-423B-ACE3-AFB06CF40B1C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FE667205-52D2-4F4A-A580-1C92346B6194}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Character_Harpoon_Firing" ID="{71D27230-8AC2-495C-ADB2-67DFFDAC64AA}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.839854083994709"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.288308118386243"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.03069196428571"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Character_Harpoon_Firing.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="795238183"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Character_Harpoon_Firing" ID="{71D27230-8AC2-495C-ADB2-67DFFDAC64AA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Character_Harpoon_Hit_Metal_Basic" ID="{D0C8F199-1A38-465E-9F77-579F34F4F022}" ShortID="932383668">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D53B1682-D16A-423B-ACE3-AFB06CF40B1C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FE667205-52D2-4F4A-A580-1C92346B6194}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Character_Harpoon_Hit_Metal_Basic" ID="{BD8B7D44-95FD-48AB-A16F-E8AA21D20F5C}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0.12037037037037"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.12037037037037"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Character_Harpoon_Hit_Metal_Basic.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="89664466"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Character_Harpoon_Hit_Metal_Basic" ID="{BD8B7D44-95FD-48AB-A16F-E8AA21D20F5C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Character_Harpoon_Hit_Metal" ID="{AEA5AFB6-8C10-40E1-9E2D-DDF37582B520}" ShortID="102898639">
+							<Comment>NO EVENT</Comment>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D53B1682-D16A-423B-ACE3-AFB06CF40B1C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FE667205-52D2-4F4A-A580-1C92346B6194}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Character_Harpoon_Hit_Metal" ID="{071CC013-27ED-4B4B-AF5E-BE82F7233746}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0.57005602946646"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.57005602946646"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Character_Harpoon_Hit_Metal.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="12385745"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Character_Harpoon_Hit_Metal" ID="{071CC013-27ED-4B4B-AF5E-BE82F7233746}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Character_Harpoon_Hit_Wood_Basic" ID="{07B34E3A-CE49-484F-90AE-688B76B26D1B}" ShortID="1048335564">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D53B1682-D16A-423B-ACE3-AFB06CF40B1C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FE667205-52D2-4F4A-A580-1C92346B6194}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Character_Harpoon_Hit_Wood_Basic" ID="{6221C642-CA2E-4E23-BB16-D7833C5E8C9A}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.126818783068783"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Character_Harpoon_Hit_Wood_Basic.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="486718626"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Character_Harpoon_Hit_Wood_Basic" ID="{6221C642-CA2E-4E23-BB16-D7833C5E8C9A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Character_Harpoon_Hit" ID="{C4C71DD1-ED36-40C0-8E03-3504839B9DEE}" ShortID="770684961">
+							<Comment>NO EVENT
+</Comment>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D53B1682-D16A-423B-ACE3-AFB06CF40B1C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FE667205-52D2-4F4A-A580-1C92346B6194}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Character_Harpoon_Hit" ID="{91C1881A-3989-486B-99E3-C4359B968A36}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0.617233080180926"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.617233080180926"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Character_Harpoon_Hit.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="246453536"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Character_Harpoon_Hit" ID="{91C1881A-3989-486B-99E3-C4359B968A36}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Character_Harpoon_Rope_Retracted" ID="{CE0C04DB-EE4C-4DA2-BA9F-C4AEFD7B8271}" ShortID="236954990">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D53B1682-D16A-423B-ACE3-AFB06CF40B1C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FE667205-52D2-4F4A-A580-1C92346B6194}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Character_Harpoon_Rope_Retracted" ID="{87B339B0-0C68-4D04-80C7-638B39BEC59C}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0.165118055555556"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.165118055555556"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Character_Harpoon_Rope_Retracted.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="249225683"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Character_Harpoon_Rope_Retracted" ID="{87B339B0-0C68-4D04-80C7-638B39BEC59C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="Harpoon_Hit_Wood_Bounce" ID="{691617B0-B3E1-48CB-85BD-9883AA5F268E}" ShortID="292403588">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D53B1682-D16A-423B-ACE3-AFB06CF40B1C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FE667205-52D2-4F4A-A580-1C92346B6194}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Character_Harpoon_Hit_Wood_Bounce" ID="{04CB49CF-C961-4350-B5CB-99567BE8C063}" ShortID="688551295">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D53B1682-D16A-423B-ACE3-AFB06CF40B1C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FE667205-52D2-4F4A-A580-1C92346B6194}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character_Harpoon_Hit_Wood_Bounce" ID="{12EE41F9-B56C-4A7D-B261-824309BEBF29}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.60543881750231"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Character_Harpoon_Hit_Wood_Bounce.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="197171966"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character_Harpoon_Hit_Wood_Bounce" ID="{12EE41F9-B56C-4A7D-B261-824309BEBF29}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character_Harpoon_Hit_Wood_Bounce_1" ID="{251A2A55-A80B-464E-BC2F-004041454ADB}" ShortID="664410636">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D53B1682-D16A-423B-ACE3-AFB06CF40B1C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FE667205-52D2-4F4A-A580-1C92346B6194}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character_Harpoon_Hit_Wood_Bounce_1" ID="{66352A07-F55D-4FED-9B55-4402C0665141}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.609370238395182"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Character_Harpoon_Hit_Wood_Bounce_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="583229775"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character_Harpoon_Hit_Wood_Bounce_1" ID="{66352A07-F55D-4FED-9B55-4402C0665141}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character_Harpoon_Hit_Wood_Bounce_2" ID="{DCDDB660-B10F-4F3B-9F83-16777BE86591}" ShortID="363347147">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D53B1682-D16A-423B-ACE3-AFB06CF40B1C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FE667205-52D2-4F4A-A580-1C92346B6194}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character_Harpoon_Hit_Wood_Bounce_2" ID="{03E76798-CE85-4B35-92AF-1498B7E5509B}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.990718065003779"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Character_Harpoon_Hit_Wood_Bounce_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="688482165"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character_Harpoon_Hit_Wood_Bounce_2" ID="{03E76798-CE85-4B35-92AF-1498B7E5509B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
