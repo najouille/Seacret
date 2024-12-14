@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DF2DA221-61BF-45A8-9CA7-C5181AFFD53C}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Misc" ID="{DF2DA221-61BF-45A8-9CA7-C5181AFFD53C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Misc_Sonar_ping" ID="{E010B608-74EB-4D17-8A1B-26E0847DA910}" ShortID="227635742">
+					<Comment>NO EVENT</Comment>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D53B1682-D16A-423B-ACE3-AFB06CF40B1C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FE667205-52D2-4F4A-A580-1C92346B6194}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Misc_Sonar_ping" ID="{445FB0DB-65D3-4668-B48B-AE38BA619AA2}">
+							<PropertyList>
+								<Property Name="LoopBegin" Type="Real64" Value="0"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Misc_Sonar_ping.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="894602773"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Misc_Sonar_ping" ID="{445FB0DB-65D3-4668-B48B-AE38BA619AA2}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
