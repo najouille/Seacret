@@ -11430,6 +11430,9 @@
 				<PhysicalFolder Path="Actor-Mixer Hierarchy\Game">
 					<WorkUnit Name="Game" ID="{AF31C23F-051F-4521-8ED9-0AB68C904EEB}" PersistMode="Standalone"/>
 				</PhysicalFolder>
+				<PhysicalFolder Path="Actor-Mixer Hierarchy\Game\LDI">
+					<WorkUnit Name="LDI" ID="{5C497C18-F125-4162-8672-59BBB60A5248}" PersistMode="Standalone"/>
+				</PhysicalFolder>
 				<PhysicalFolder Path="Actor-Mixer Hierarchy\Game\Levels">
 					<WorkUnit Name="Levels" ID="{F849181C-76C0-458A-9CD9-7B4EB75441C2}" PersistMode="Standalone">
 						<Comment>level specific sounds
@@ -11459,6 +11462,9 @@
 				</PhysicalFolder>
 				<PhysicalFolder Path="Events">
 					<WorkUnit Name="Events" ID="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}" PersistMode="Standalone"/>
+				</PhysicalFolder>
+				<PhysicalFolder Path="Events\Game">
+					<WorkUnit Name="Game" ID="{033B1FF8-43E6-40FB-9C30-F84AEF06FEB2}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Events\NPC">
 					<WorkUnit Name="NPC" ID="{34906B1F-567E-4451-8A64-6511197CFF65}" PersistMode="Standalone"/>

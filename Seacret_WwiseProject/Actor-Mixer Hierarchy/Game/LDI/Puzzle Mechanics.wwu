@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FE26395D-C9D5-4F6B-9AC5-0EC45738F032}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Puzzle Mechanics" ID="{FE26395D-C9D5-4F6B-9AC5-0EC45738F032}" PersistMode="Standalone">
+			<Comment>For levers, gas etc</Comment>
+			<ChildrenList>
+				<Sound Name="LDI_Crate_Dragging" ID="{614411F9-4E72-4A37-ACA4-AE969FB33437}" ShortID="113076194">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D53B1682-D16A-423B-ACE3-AFB06CF40B1C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FE667205-52D2-4F4A-A580-1C92346B6194}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="LDI_Crate_Dragging" ID="{A89180A0-6468-4537-A5EE-F882865344B2}">
+							<Language>SFX</Language>
+							<AudioFile>LDI_Crate_Dragging.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="491526676"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="LDI_Crate_Dragging" ID="{A89180A0-6468-4537-A5EE-F882865344B2}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="LDI_Highly_Pressurized_Air" ID="{DE8D7357-072A-49C9-AA12-79E83B34635A}" ShortID="948743769">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D53B1682-D16A-423B-ACE3-AFB06CF40B1C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FE667205-52D2-4F4A-A580-1C92346B6194}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="LDI_Highly_Pressurized_Air" ID="{535656DB-E021-4606-A3B6-6F095211F6C8}">
+							<Language>SFX</Language>
+							<AudioFile>LDI_Highly_Pressurized_Air.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="276612715"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="LDI_Highly_Pressurized_Air" ID="{535656DB-E021-4606-A3B6-6F095211F6C8}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="LDI_Pressure_Plate_Pressed" ID="{E8D6C47D-9824-4193-99C2-83D0DBB773E8}" ShortID="364953453">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D53B1682-D16A-423B-ACE3-AFB06CF40B1C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FE667205-52D2-4F4A-A580-1C92346B6194}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="LDI_Pressure_Plate_Pressed" ID="{7BEEE53C-E953-4135-A361-A383249992C1}">
+							<Language>SFX</Language>
+							<AudioFile>LDI_Pressure_Plate_Pressed.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="763450215"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="LDI_Pressure_Plate_Pressed" ID="{7BEEE53C-E953-4135-A361-A383249992C1}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="LDI_Pressure_Plate_Unpressed" ID="{0CF07ED7-5CD3-4EC6-AF25-1BF2413665FB}" ShortID="21705847">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D53B1682-D16A-423B-ACE3-AFB06CF40B1C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FE667205-52D2-4F4A-A580-1C92346B6194}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="LDI_Pressure_Plate_Unpressed" ID="{3511650E-E83A-40DB-9BC0-B7B444D09D0E}">
+							<Language>SFX</Language>
+							<AudioFile>LDI_Pressure_Plate_Unpressed.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="267317497"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="LDI_Pressure_Plate_Unpressed" ID="{3511650E-E83A-40DB-9BC0-B7B444D09D0E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="LDI_Crate_Landing" ID="{D65919DA-9842-4630-B694-C835E51FA2FA}" ShortID="915695833">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D53B1682-D16A-423B-ACE3-AFB06CF40B1C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FE667205-52D2-4F4A-A580-1C92346B6194}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Crate_Landing" ID="{046EF9DA-62A1-4B8E-9A3C-117D740AE6CC}">
+							<PropertyList>
+								<Property Name="LoopBegin" Type="Real64" Value="0.0605492273730684"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.0605492273730684"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Crate_Landing.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="356821453"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Crate_Landing" ID="{046EF9DA-62A1-4B8E-9A3C-117D740AE6CC}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -11,12 +11,20 @@
 						<ObjectRef Name="Button_Press" ID="{B32A07F9-302B-4182-90FD-EB39C7CFDD77}" WorkUnitID="{66A84312-B16F-431F-B3B5-BBF3C8D11F13}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Game_Start" ID="{321A1B7E-E6C2-437D-BC31-F076CBFD2A97}" WorkUnitID="{8BE9884C-15DE-4F2C-8CA0-795A1B9DFF5C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Menu_Confirm" ID="{E628941F-793C-43D1-872A-1F4F9E46FD0D}" WorkUnitID="{8BE9884C-15DE-4F2C-8CA0-795A1B9DFF5C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Crate_Landing" ID="{6D72A200-FA3B-4573-BA26-C2687B5FF560}" WorkUnitID="{06ABB3AF-7065-421F-BBF5-512032082E1E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Pressure_Plate_Down" ID="{0BE6DC60-4446-45DB-9392-3FD2B03E8ABE}" WorkUnitID="{06ABB3AF-7065-421F-BBF5-512032082E1E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Gate_Closing_Big" ID="{A373754C-A7D9-4655-AE0B-42C57C43A3D0}" WorkUnitID="{C80F6F41-D1C6-4510-BBB1-553D311AA31E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Gate_Closing_Small" ID="{3FD67EE2-8156-4708-8C0F-D2A7614B1C6F}" WorkUnitID="{C80F6F41-D1C6-4510-BBB1-553D311AA31E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Harpoon_Hit_Wood_Bounce" ID="{F6D95672-D53E-484C-AF7B-B69B89CAE632}" WorkUnitID="{66A84312-B16F-431F-B3B5-BBF3C8D11F13}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Harpoon_Hit_Wood" ID="{1CFB75F5-CFD6-4930-B010-E67A3A6C9951}" WorkUnitID="{66A84312-B16F-431F-B3B5-BBF3C8D11F13}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Big_Fan" ID="{BE375B51-80DB-4A04-98C9-4A8E4F004E74}" WorkUnitID="{EFE35247-2845-4393-9004-E8A05D1A9D35}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="M8_TakeDamage" ID="{9C72C75A-01A7-4AAF-B201-F46BFC7EF13C}" WorkUnitID="{BFFB3B88-E5AD-4A87-A7A4-CF164DE119C5}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Menu_Nav" ID="{A2692958-9EAF-4B60-9159-4E14C0CC68D0}" WorkUnitID="{8BE9884C-15DE-4F2C-8CA0-795A1B9DFF5C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Menu_Back" ID="{56AACB95-5481-4BAC-88DC-672CEA447FAA}" WorkUnitID="{8BE9884C-15DE-4F2C-8CA0-795A1B9DFF5C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player_Dash" ID="{91EA853C-965B-4C4A-9900-8CB563066F15}" WorkUnitID="{66A84312-B16F-431F-B3B5-BBF3C8D11F13}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Crate_Dragging" ID="{809EDBCE-DC85-4C6F-8033-8B7FCF8F1A8D}" WorkUnitID="{06ABB3AF-7065-421F-BBF5-512032082E1E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Pressurized_Air" ID="{93892BF5-22E7-4C74-844B-EC5DD38AE774}" WorkUnitID="{06ABB3AF-7065-421F-BBF5-512032082E1E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Pressur_Plate_Up" ID="{12090A66-D2A5-4C75-9704-F9CB179CB053}" WorkUnitID="{06ABB3AF-7065-421F-BBF5-512032082E1E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Harpoon_Fire" ID="{4B620526-3411-4DF8-9609-B8AD8D32C95D}" WorkUnitID="{66A84312-B16F-431F-B3B5-BBF3C8D11F13}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Menu_Pause" ID="{5AA31AE4-3C46-4ED5-B34A-4AA9B2A55AB5}" WorkUnitID="{8BE9884C-15DE-4F2C-8CA0-795A1B9DFF5C}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>

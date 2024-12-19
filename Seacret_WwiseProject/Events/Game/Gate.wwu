@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C80F6F41-D1C6-4510-BBB1-553D311AA31E}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Gate" ID="{C80F6F41-D1C6-4510-BBB1-553D311AA31E}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Gate_Closing_Big" ID="{A373754C-A7D9-4655-AE0B-42C57C43A3D0}">
+					<ChildrenList>
+						<Action Name="" ID="{DA28B19C-871F-452E-97BA-4AA25BA5BCF7}" ShortID="961551560">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LDI_Gate_Closing_Big" ID="{46B184D8-056E-4EEE-9017-CEBCC6DDD396}" WorkUnitID="{8DAFC770-5592-4970-91AB-49823EA78B6F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Gate_Closing_Small" ID="{3FD67EE2-8156-4708-8C0F-D2A7614B1C6F}">
+					<ChildrenList>
+						<Action Name="" ID="{CF99E062-3993-4C9F-8924-BF4DE18943C8}" ShortID="201364761">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LDI_Gate_Closing_Small" ID="{FE4722FD-166C-473F-9953-16656E57B1CF}" WorkUnitID="{8DAFC770-5592-4970-91AB-49823EA78B6F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

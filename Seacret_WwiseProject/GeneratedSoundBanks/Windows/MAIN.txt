@@ -1,16 +1,24 @@
 Event	ID	Name			Wwise Object Path	Notes
 	55012563	Harpoon_Hit_Wood_Bounce			\Player\Harpoon\Harpoon_Hit_Wood_Bounce	
+	357436322	Crate_Dragging			\Game\Puzzle\Crate_Dragging	
+	408719460	Pressurized_Air			\Game\Puzzle\Pressurized_Air	
 	428938660	Harpoon_Retract			\Player\Harpoon\Harpoon_Retract	
+	451533932	Pressure_Plate_Down			\Game\Puzzle\Pressure_Plate_Down	
+	526458966	Pressur_Plate_Up			\Game\Puzzle\Pressur_Plate_Up	
 	626061955	Menu_Ambiance			\Menu\Menu_Ambiance	
 	728789488	Harpoon_Hit_Metal			\Player\Harpoon\Harpoon_Hit_Metal	
 	733168346	Game_Start			\Menu\Game_Start	
+	1111651631	Big_Fan			\Game\Other\Big_Fan	
 	1279314012	Harpoon_Hit_Wood			\Player\Harpoon\Harpoon_Hit_Wood	
 	2170009975	Menu_Pause			\Menu\Menu_Pause	
 	2319975221	Harpoon_Fire			\Player\Harpoon\Harpoon_Fire	
 	2394582229	Player_Dash			\Player\Player_Dash	
+	2677625726	Crate_Landing			\Game\Puzzle\Crate_Landing	
 	2684797902	Menu_Nav			\Menu\Menu_Nav	
 	2698747613	Button_Press			\Player\Button_Press	
 	3063554414	Menu_Back			\Menu\Menu_Back	
+	3298597416	Gate_Closing_Small			\Game\Gate\Gate_Closing_Small	
+	3582444375	Gate_Closing_Big			\Game\Gate\Gate_Closing_Big	
 	3984496399	M8_TakeDamage			\NPC\M8\M8_TakeDamage	
 	4046753069	Menu_Confirm			\Menu\Menu_Confirm	
 
@@ -19,21 +27,29 @@ Effect plug-ins	ID	Name	Type				Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	74272501	Menu_Validation	Y:\Documents\GitHub\Seacret\Seacret_WwiseProject\.cache\Windows\SFX\Menu_Validation_9DD2C486.wem		\Actor-Mixer Hierarchy\Menu\Menu_Validation		939580
-	89664466	Character_Harpoon_Hit_Metal_Basic	Y:\Documents\GitHub\Seacret\Seacret_WwiseProject\.cache\Windows\SFX\Character_Harpoon_Hit_Metal_Basic_E5A5003A.wem		\Actor-Mixer Hierarchy\Player\Harpoon\Character_Harpoon_Hit_Metal_Basic		288984
+	87852075	LDI_Gate_Closing_Small	Y:\Documents\GitHub\Seacret\Seacret_WwiseProject\.cache\Windows\SFX\LDI_Gate_Closing_Small_818F3B66.wem		\Actor-Mixer Hierarchy\Game\LDI\Gate\LDI_Gate_Closing_Small		1004452
+	89664466	Character_Harpoon_Hit_Metal_Basic	Y:\Documents\GitHub\Seacret\Seacret_WwiseProject\.cache\Windows\SFX\Character_Harpoon_Hit_Metal_Basic_2CCC698E.wem		\Actor-Mixer Hierarchy\Player\Harpoon\Character_Harpoon_Hit_Metal_Basic		288984
 	147782549	Menu_Underwater_Ambiance	Y:\Documents\GitHub\Seacret\Seacret_WwiseProject\.cache\Windows\SFX\Menu_Underwater_Ambiance_FBC78EF0.wem		\Actor-Mixer Hierarchy\Menu\Menu_Underwater_Ambiance		3664760
-	197171966	Character_Harpoon_Hit_Wood_Bounce	Y:\Documents\GitHub\Seacret\Seacret_WwiseProject\.cache\Windows\SFX\Character_Harpoon_Hit_Wood_Bounce_64872A63.wem		\Actor-Mixer Hierarchy\Player\Harpoon\Harpoon_Hit_Wood_Bounce\Character_Harpoon_Hit_Wood_Bounce		417584
-	249225683	Character_Harpoon_Rope_Retracted	Y:\Documents\GitHub\Seacret\Seacret_WwiseProject\.cache\Windows\SFX\Character_Harpoon_Rope_Retracted_7AE994F3.wem		\Actor-Mixer Hierarchy\Player\Harpoon\Character_Harpoon_Rope_Retracted		253716
+	197171966	Character_Harpoon_Hit_Wood_Bounce	Y:\Documents\GitHub\Seacret\Seacret_WwiseProject\.cache\Windows\SFX\Character_Harpoon_Hit_Wood_Bounce_E71D2C9D.wem		\Actor-Mixer Hierarchy\Player\Harpoon\Harpoon_Hit_Wood_Bounce\Character_Harpoon_Hit_Wood_Bounce		417584
+	234105257	LDI_Big_Fan_Spinning	Y:\Documents\GitHub\Seacret\Seacret_WwiseProject\.cache\Windows\SFX\LDI_Big_Fan_Spinning_FBC78EF0.wem		\Actor-Mixer Hierarchy\Game\Misc\LDI_Big_Fan_Spinning		3949808
+	249225683	Character_Harpoon_Rope_Retracted	Y:\Documents\GitHub\Seacret\Seacret_WwiseProject\.cache\Windows\SFX\Character_Harpoon_Rope_Retracted_2C3A867C.wem		\Actor-Mixer Hierarchy\Player\Harpoon\Character_Harpoon_Rope_Retracted		253716
+	267317497	LDI_Pressure_Plate_Unpressed	Y:\Documents\GitHub\Seacret\Seacret_WwiseProject\.cache\Windows\SFX\LDI_Pressure_Plate_Unpressed_818F3B66.wem		\Actor-Mixer Hierarchy\Game\LDI\Puzzle Mechanics\LDI_Pressure_Plate_Unpressed		155056
 	267783551	Menu_Navigation_1	Y:\Documents\GitHub\Seacret\Seacret_WwiseProject\.cache\Windows\SFX\Menu_Navigation_1_DBCEB0EC.wem		\Actor-Mixer Hierarchy\Menu\Menu_Nav\Menu_Navigation_1		641996
+	276612715	LDI_Highly_Pressurized_Air	Y:\Documents\GitHub\Seacret\Seacret_WwiseProject\.cache\Windows\SFX\LDI_Highly_Pressurized_Air_FBC78EF0.wem		\Actor-Mixer Hierarchy\Game\LDI\Puzzle Mechanics\LDI_Highly_Pressurized_Air		1440096
 	278998757	Character_Dash	Y:\Documents\GitHub\Seacret\Seacret_WwiseProject\.cache\Windows\SFX\Character_Dash_8BAF32D6.wem		\Actor-Mixer Hierarchy\Player\Character_Dash		202312
 	284723913	Menu_Navigation_2	Y:\Documents\GitHub\Seacret\Seacret_WwiseProject\.cache\Windows\SFX\Menu_Navigation_2_AA403907.wem		\Actor-Mixer Hierarchy\Menu\Menu_Nav\Menu_Navigation_2		729220
+	356821453	LDI_Crate_Landing	Y:\Documents\GitHub\Seacret\Seacret_WwiseProject\.cache\Windows\SFX\Crate_Landing_FAF36082.wem		\Actor-Mixer Hierarchy\Game\LDI\Puzzle Mechanics\LDI_Crate_Landing		262760
 	480667015	Onboarding_Music	Y:\Documents\GitHub\Seacret\Seacret_WwiseProject\.cache\Windows\SFX\Onboarding_Music_FFE1D333.wem		\Actor-Mixer Hierarchy\Menu\Onboarding_Music		2256036
-	486718626	Character_Harpoon_Hit_Wood_Basic	Y:\Documents\GitHub\Seacret\Seacret_WwiseProject\.cache\Windows\SFX\Character_Harpoon_Hit_Wood_Basic_99A9A43F.wem		\Actor-Mixer Hierarchy\Player\Harpoon\Character_Harpoon_Hit_Wood_Basic		287748
-	583229775	Character_Harpoon_Hit_Wood_Bounce_1	Y:\Documents\GitHub\Seacret\Seacret_WwiseProject\.cache\Windows\SFX\Character_Harpoon_Hit_Wood_Bounce_1_1709B56F.wem		\Actor-Mixer Hierarchy\Player\Harpoon\Harpoon_Hit_Wood_Bounce\Character_Harpoon_Hit_Wood_Bounce_1		416892
+	486718626	Character_Harpoon_Hit_Wood_Basic	Y:\Documents\GitHub\Seacret\Seacret_WwiseProject\.cache\Windows\SFX\Character_Harpoon_Hit_Wood_Basic_4A0D51D5.wem		\Actor-Mixer Hierarchy\Player\Harpoon\Character_Harpoon_Hit_Wood_Basic		287748
+	491526676	LDI_Crate_Dragging	Y:\Documents\GitHub\Seacret\Seacret_WwiseProject\.cache\Windows\SFX\LDI_Crate_Dragging_818F3B66.wem		\Actor-Mixer Hierarchy\Game\LDI\Puzzle Mechanics\LDI_Crate_Dragging		1254956
+	578586406	LDI_Gate_Closing_Big	Y:\Documents\GitHub\Seacret\Seacret_WwiseProject\.cache\Windows\SFX\LDI_Gate_Closing_Big_Industrial_818F3B66.wem		\Actor-Mixer Hierarchy\Game\LDI\Gate\LDI_Gate_Closing_Big		1537992
+	583229775	Character_Harpoon_Hit_Wood_Bounce_1	Y:\Documents\GitHub\Seacret\Seacret_WwiseProject\.cache\Windows\SFX\Character_Harpoon_Hit_Wood_Bounce_1_1A175DA6.wem		\Actor-Mixer Hierarchy\Player\Harpoon\Harpoon_Hit_Wood_Bounce\Character_Harpoon_Hit_Wood_Bounce_1		416892
 	644925676	Menu_Pause	Y:\Documents\GitHub\Seacret\Seacret_WwiseProject\.cache\Windows\SFX\Menu_Pause_D4D8190E.wem		\Actor-Mixer Hierarchy\Menu\Menu_Pause		795148
 	672432319	Menu_Navigation	Y:\Documents\GitHub\Seacret\Seacret_WwiseProject\.cache\Windows\SFX\Menu_Navigation_C7CEB259.wem		\Actor-Mixer Hierarchy\Menu\Menu_Nav\Menu_Navigation		820360
-	688482165	Character_Harpoon_Hit_Wood_Bounce_2	Y:\Documents\GitHub\Seacret\Seacret_WwiseProject\.cache\Windows\SFX\Character_Harpoon_Hit_Wood_Bounce_2_3661A460.wem		\Actor-Mixer Hierarchy\Player\Harpoon\Harpoon_Hit_Wood_Bounce\Character_Harpoon_Hit_Wood_Bounce_2		349620
+	688482165	Character_Harpoon_Hit_Wood_Bounce_2	Y:\Documents\GitHub\Seacret\Seacret_WwiseProject\.cache\Windows\SFX\Character_Harpoon_Hit_Wood_Bounce_2_C0949871.wem		\Actor-Mixer Hierarchy\Player\Harpoon\Harpoon_Hit_Wood_Bounce\Character_Harpoon_Hit_Wood_Bounce_2		349620
 	716256250	M-8_Robot_Damaged_Bugging	Y:\Documents\GitHub\Seacret\Seacret_WwiseProject\.cache\Windows\SFX\M-8_Robot_Damaged_Bugging_818F3B66.wem		\Actor-Mixer Hierarchy\NPC\M8\M-8_Robot_Damaged_Bugging		960096
+	763450215	LDI_Pressure_Plate_Pressed	Y:\Documents\GitHub\Seacret\Seacret_WwiseProject\.cache\Windows\SFX\LDI_Pressure_Plate_Pressed_818F3B66.wem		\Actor-Mixer Hierarchy\Game\LDI\Puzzle Mechanics\LDI_Pressure_Plate_Pressed		164400
 	778304567	Menu_Back	Y:\Documents\GitHub\Seacret\Seacret_WwiseProject\.cache\Windows\SFX\Menu_Back_54DAF1EF.wem		\Actor-Mixer Hierarchy\Menu\Menu_Back		393516
-	795238183	Character_Harpoon_Firing	Y:\Documents\GitHub\Seacret\Seacret_WwiseProject\.cache\Windows\SFX\Character_Harpoon_Firing_3BE10DB3.wem		\Actor-Mixer Hierarchy\Player\Harpoon\Character_Harpoon_Firing		334632
+	795238183	Character_Harpoon_Firing	Y:\Documents\GitHub\Seacret\Seacret_WwiseProject\.cache\Windows\SFX\Character_Harpoon_Firing_567E770F.wem		\Actor-Mixer Hierarchy\Player\Harpoon\Character_Harpoon_Firing		334632
 	969413322	Character_Reach_Button_Press	Y:\Documents\GitHub\Seacret\Seacret_WwiseProject\.cache\Windows\SFX\Character_Reach_Button_Press_A907EE33.wem		\Actor-Mixer Hierarchy\Player\Character_Reach_Button_Press		58812
 

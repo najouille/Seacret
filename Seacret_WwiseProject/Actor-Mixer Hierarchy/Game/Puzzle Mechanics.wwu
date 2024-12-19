@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{FE26395D-C9D5-4F6B-9AC5-0EC45738F032}" SchemaVersion="119">
-	<AudioObjects>
-		<WorkUnit Name="Puzzle Mechanics" ID="{FE26395D-C9D5-4F6B-9AC5-0EC45738F032}" PersistMode="Standalone">
-			<Comment>For levers, gas etc</Comment>
-		</WorkUnit>
-	</AudioObjects>
-</WwiseDocument>

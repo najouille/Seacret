@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EFE35247-2845-4393-9004-E8A05D1A9D35}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Other" ID="{EFE35247-2845-4393-9004-E8A05D1A9D35}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Big_Fan" ID="{BE375B51-80DB-4A04-98C9-4A8E4F004E74}">
+					<ChildrenList>
+						<Action Name="" ID="{8F5743FC-5035-4D2F-B51B-7E8C7F281C57}" ShortID="576797583">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LDI_Big_Fan_Spinning" ID="{AFBBEC0E-27DC-4289-817F-92615E318D1F}" WorkUnitID="{DF2DA221-61BF-45A8-9CA7-C5181AFFD53C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

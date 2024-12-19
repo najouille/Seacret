@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{06ABB3AF-7065-421F-BBF5-512032082E1E}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Puzzle" ID="{06ABB3AF-7065-421F-BBF5-512032082E1E}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Pressure_Plate_Down" ID="{0BE6DC60-4446-45DB-9392-3FD2B03E8ABE}">
+					<ChildrenList>
+						<Action Name="" ID="{FEE445D7-723C-4AE7-ABC9-2D0BCAAA2E82}" ShortID="411779263">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LDI_Pressure_Plate_Pressed" ID="{E8D6C47D-9824-4193-99C2-83D0DBB773E8}" WorkUnitID="{FE26395D-C9D5-4F6B-9AC5-0EC45738F032}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Pressur_Plate_Up" ID="{12090A66-D2A5-4C75-9704-F9CB179CB053}">
+					<ChildrenList>
+						<Action Name="" ID="{D3D7F724-2765-4D6A-A381-30ED7C608467}" ShortID="131573553">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LDI_Pressure_Plate_Unpressed" ID="{0CF07ED7-5CD3-4EC6-AF25-1BF2413665FB}" WorkUnitID="{FE26395D-C9D5-4F6B-9AC5-0EC45738F032}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Pressurized_Air" ID="{93892BF5-22E7-4C74-844B-EC5DD38AE774}">
+					<ChildrenList>
+						<Action Name="" ID="{23632FB6-B9FD-423D-B8A3-C530E93E1E17}" ShortID="46999694">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LDI_Highly_Pressurized_Air" ID="{DE8D7357-072A-49C9-AA12-79E83B34635A}" WorkUnitID="{FE26395D-C9D5-4F6B-9AC5-0EC45738F032}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Crate_Dragging" ID="{809EDBCE-DC85-4C6F-8033-8B7FCF8F1A8D}">
+					<ChildrenList>
+						<Action Name="" ID="{B36381AE-11A5-4C2A-9151-657DEE598249}" ShortID="72060940">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LDI_Crate_Dragging" ID="{614411F9-4E72-4A37-ACA4-AE969FB33437}" WorkUnitID="{FE26395D-C9D5-4F6B-9AC5-0EC45738F032}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Crate_Landing" ID="{6D72A200-FA3B-4573-BA26-C2687B5FF560}">
+					<ChildrenList>
+						<Action Name="" ID="{30DE3B49-03F7-4050-8A51-87B21ADA8E7E}" ShortID="192392349">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LDI_Crate_Landing" ID="{D65919DA-9842-4630-B694-C835E51FA2FA}" WorkUnitID="{FE26395D-C9D5-4F6B-9AC5-0EC45738F032}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

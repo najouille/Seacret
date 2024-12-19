@@ -56,7 +56,7 @@
     "Type": "User",
     "GUID": "{B5436080-6685-492B-9F0D-407F97437144}",
     "Language": "SFX",
-    "Hash": "{1171E83E-9B9F-C128-D27F-F89982CA3D39}",
+    "Hash": "{1C2A67C6-EA11-20DB-69D7-D2A2B48D6858}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MAIN",
     "ShortName": "MAIN",
     "Path": "MAIN.bnk",
@@ -70,12 +70,20 @@
       "CachePath": "SFX/Menu_Validation_9DD2C486.wem"
      },
      {
+      "Id": "87852075",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "LDI_Gate_Closing_Small.wav",
+      "CachePath": "SFX/LDI_Gate_Closing_Small_818F3B66.wem"
+     },
+     {
       "Id": "89664466",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Character_Harpoon_Hit_Metal_Basic.wav",
-      "CachePath": "SFX/Character_Harpoon_Hit_Metal_Basic_E5A5003A.wem"
+      "CachePath": "SFX/Character_Harpoon_Hit_Metal_Basic_2CCC698E.wem"
      },
      {
       "Id": "147782549",
@@ -91,7 +99,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Character_Harpoon_Hit_Wood_Bounce.wav",
-      "CachePath": "SFX/Character_Harpoon_Hit_Wood_Bounce_64872A63.wem"
+      "CachePath": "SFX/Character_Harpoon_Hit_Wood_Bounce_E71D2C9D.wem"
+     },
+     {
+      "Id": "234105257",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "LDI_Big_Fan_Spinning.wav",
+      "CachePath": "SFX/LDI_Big_Fan_Spinning_FBC78EF0.wem"
      },
      {
       "Id": "249225683",
@@ -99,7 +115,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Character_Harpoon_Rope_Retracted.wav",
-      "CachePath": "SFX/Character_Harpoon_Rope_Retracted_7AE994F3.wem"
+      "CachePath": "SFX/Character_Harpoon_Rope_Retracted_2C3A867C.wem"
+     },
+     {
+      "Id": "267317497",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "LDI_Pressure_Plate_Unpressed.wav",
+      "CachePath": "SFX/LDI_Pressure_Plate_Unpressed_818F3B66.wem"
      },
      {
       "Id": "267783551",
@@ -108,6 +132,14 @@
       "Location": "Memory",
       "ShortName": "Menu_Navigation_1.wav",
       "CachePath": "SFX/Menu_Navigation_1_DBCEB0EC.wem"
+     },
+     {
+      "Id": "276612715",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "LDI_Highly_Pressurized_Air.wav",
+      "CachePath": "SFX/LDI_Highly_Pressurized_Air_FBC78EF0.wem"
      },
      {
       "Id": "278998757",
@@ -126,6 +158,14 @@
       "CachePath": "SFX/Menu_Navigation_2_AA403907.wem"
      },
      {
+      "Id": "356821453",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Crate_Landing.wav",
+      "CachePath": "SFX/Crate_Landing_FAF36082.wem"
+     },
+     {
       "Id": "480667015",
       "Language": "SFX",
       "Streaming": "false",
@@ -139,7 +179,23 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Character_Harpoon_Hit_Wood_Basic.wav",
-      "CachePath": "SFX/Character_Harpoon_Hit_Wood_Basic_99A9A43F.wem"
+      "CachePath": "SFX/Character_Harpoon_Hit_Wood_Basic_4A0D51D5.wem"
+     },
+     {
+      "Id": "491526676",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "LDI_Crate_Dragging.wav",
+      "CachePath": "SFX/LDI_Crate_Dragging_818F3B66.wem"
+     },
+     {
+      "Id": "578586406",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "LDI_Gate_Closing_Big_Industrial.wav",
+      "CachePath": "SFX/LDI_Gate_Closing_Big_Industrial_818F3B66.wem"
      },
      {
       "Id": "583229775",
@@ -147,7 +203,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Character_Harpoon_Hit_Wood_Bounce_1.wav",
-      "CachePath": "SFX/Character_Harpoon_Hit_Wood_Bounce_1_1709B56F.wem"
+      "CachePath": "SFX/Character_Harpoon_Hit_Wood_Bounce_1_1A175DA6.wem"
      },
      {
       "Id": "644925676",
@@ -171,7 +227,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Character_Harpoon_Hit_Wood_Bounce_2.wav",
-      "CachePath": "SFX/Character_Harpoon_Hit_Wood_Bounce_2_3661A460.wem"
+      "CachePath": "SFX/Character_Harpoon_Hit_Wood_Bounce_2_C0949871.wem"
      },
      {
       "Id": "716256250",
@@ -180,6 +236,14 @@
       "Location": "Memory",
       "ShortName": "M-8_Robot_Damaged_Bugging.wav",
       "CachePath": "SFX/M-8_Robot_Damaged_Bugging_818F3B66.wem"
+     },
+     {
+      "Id": "763450215",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "LDI_Pressure_Plate_Pressed.wav",
+      "CachePath": "SFX/LDI_Pressure_Plate_Pressed_818F3B66.wem"
      },
      {
       "Id": "778304567",
@@ -195,7 +259,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Character_Harpoon_Firing.wav",
-      "CachePath": "SFX/Character_Harpoon_Firing_3BE10DB3.wem"
+      "CachePath": "SFX/Character_Harpoon_Firing_567E770F.wem"
      },
      {
       "Id": "969413322",
@@ -220,6 +284,18 @@
     },
     "Events": [
      {
+      "Id": "1111651631",
+      "Name": "Big_Fan",
+      "ObjectPath": "\\Events\\Game\\Other\\Big_Fan",
+      "GUID": "{BE375B51-80DB-4A04-98C9-4A8E4F004E74}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "234105257"
+       }
+      ]
+     },
+     {
       "Id": "2698747613",
       "Name": "Button_Press",
       "ObjectPath": "\\Events\\Player\\Button_Press",
@@ -230,6 +306,34 @@
       "MediaRefs": [
        {
         "Id": "969413322"
+       }
+      ]
+     },
+     {
+      "Id": "357436322",
+      "Name": "Crate_Dragging",
+      "ObjectPath": "\\Events\\Game\\Puzzle\\Crate_Dragging",
+      "GUID": "{809EDBCE-DC85-4C6F-8033-8B7FCF8F1A8D}",
+      "DurationType": "OneShot",
+      "DurationMin": "6.535729",
+      "DurationMax": "6.535729",
+      "MediaRefs": [
+       {
+        "Id": "491526676"
+       }
+      ]
+     },
+     {
+      "Id": "2677625726",
+      "Name": "Crate_Landing",
+      "ObjectPath": "\\Events\\Game\\Puzzle\\Crate_Landing",
+      "GUID": "{6D72A200-FA3B-4573-BA26-C2687B5FF560}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.3680341",
+      "DurationMax": "1.3680341",
+      "MediaRefs": [
+       {
+        "Id": "356821453"
        }
       ]
      },
@@ -253,6 +357,34 @@
         }
        ]
       }
+     },
+     {
+      "Id": "3582444375",
+      "Name": "Gate_Closing_Big",
+      "ObjectPath": "\\Events\\Game\\Gate\\Gate_Closing_Big",
+      "GUID": "{A373754C-A7D9-4655-AE0B-42C57C43A3D0}",
+      "DurationType": "OneShot",
+      "DurationMin": "8.009625",
+      "DurationMax": "8.009625",
+      "MediaRefs": [
+       {
+        "Id": "578586406"
+       }
+      ]
+     },
+     {
+      "Id": "3298597416",
+      "Name": "Gate_Closing_Small",
+      "ObjectPath": "\\Events\\Game\\Gate\\Gate_Closing_Small",
+      "GUID": "{3FD67EE2-8156-4708-8C0F-D2A7614B1C6F}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.230771",
+      "DurationMax": "5.230771",
+      "MediaRefs": [
+       {
+        "Id": "87852075"
+       }
+      ]
      },
      {
       "Id": "2319975221",
@@ -431,10 +563,50 @@
         "Id": "278998757"
        }
       ]
+     },
+     {
+      "Id": "526458966",
+      "Name": "Pressur_Plate_Up",
+      "ObjectPath": "\\Events\\Game\\Puzzle\\Pressur_Plate_Up",
+      "GUID": "{12090A66-D2A5-4C75-9704-F9CB179CB053}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.8070833",
+      "DurationMax": "0.8070833",
+      "MediaRefs": [
+       {
+        "Id": "267317497"
+       }
+      ]
+     },
+     {
+      "Id": "451533932",
+      "Name": "Pressure_Plate_Down",
+      "ObjectPath": "\\Events\\Game\\Puzzle\\Pressure_Plate_Down",
+      "GUID": "{0BE6DC60-4446-45DB-9392-3FD2B03E8ABE}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.85575",
+      "DurationMax": "0.85575",
+      "MediaRefs": [
+       {
+        "Id": "763450215"
+       }
+      ]
+     },
+     {
+      "Id": "408719460",
+      "Name": "Pressurized_Air",
+      "ObjectPath": "\\Events\\Game\\Puzzle\\Pressurized_Air",
+      "GUID": "{93892BF5-22E7-4C74-844B-EC5DD38AE774}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "276612715"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{20E7FF20-6CA4-0780-BFAD-FA9096579094}"
+  "FileHash": "{8D613868-D7A2-5BC0-53EF-419CE5050689}"
  }
 }
