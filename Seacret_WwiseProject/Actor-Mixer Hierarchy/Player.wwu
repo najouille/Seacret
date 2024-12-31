@@ -17,9 +17,15 @@
 					<ChildrenList>
 						<AudioFileSource Name="Character_Dash" ID="{59E141DB-4850-487B-AE57-43CBF67A7D4D}">
 							<PropertyList>
+								<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
 								<Property Name="LoopBegin" Type="Real64" Value="0.339728991639226"/>
 								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 								<Property Name="TrimBegin" Type="Real64" Value="0.339728991639226"/>
+								<Property Name="VolumeOffset" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>Character_Dash.wav</AudioFile>
@@ -44,8 +50,14 @@
 					<ChildrenList>
 						<AudioFileSource Name="Character_Reach_Button_Press" ID="{AF3DC72B-4999-4618-AEC9-7940FAFA559C}">
 							<PropertyList>
+								<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
 								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 								<Property Name="TrimBegin" Type="Real64" Value="0.381944444444444"/>
+								<Property Name="VolumeOffset" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>Character_Reach_Button_Press.wav</AudioFile>
@@ -70,6 +82,16 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="Character_Reach_Lever_Up_Down_Horizontal_Switch" ID="{C8BBFD85-9AB4-4AF9-882A-3A0833AAFCEA}">
+							<PropertyList>
+								<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.0354120401152482"/>
+								<Property Name="VolumeOffset" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>Character_Reach_Lever_Up_Down_Horizontal_Switch.wav</AudioFile>
 							<MediaIDList>
@@ -93,6 +115,18 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="Character_Reach_Lever_Up_Down_Vertical_Switch" ID="{55C8298D-99C0-417E-B5FE-814A53A88F66}">
+							<PropertyList>
+								<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
+								<Property Name="LoopBegin" Type="Real64" Value="0.0331615691489362"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.0331615691489362"/>
+								<Property Name="TrimEnd" Type="Real64" Value="1.29155585106383"/>
+								<Property Name="VolumeOffset" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>Character_Reach_Lever_Up_Down_Vertical_Switch.wav</AudioFile>
 							<MediaIDList>
@@ -118,6 +152,14 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Character_Harpoon_Rope_Launched_long" ID="{877BEE57-10B9-4ED2-AE13-DC5F18126111}">
+									<PropertyList>
+										<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile> Character_Harpoon_Rope_Launched_long.wav</AudioFile>
 									<MediaIDList>
@@ -141,6 +183,14 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Character_Harpoon_Rope_Launched_short" ID="{A6A77119-55A5-4DB5-A727-520D2E186A5D}">
+									<PropertyList>
+										<Property Name="ChannelConfigOverride" Type="int64" Value="8589935106"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile> Character_Harpoon_Rope_Launched_short.wav</AudioFile>
 									<MediaIDList>
@@ -164,10 +214,16 @@
 							<ChildrenList>
 								<AudioFileSource Name="Character_Harpoon_Firing" ID="{71D27230-8AC2-495C-ADB2-67DFFDAC64AA}">
 									<PropertyList>
+										<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
 										<Property Name="FadeOutDuration" Type="Real64" Value="0.839854083994709"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 										<Property Name="TrimBegin" Type="Real64" Value="0.288308118386243"/>
 										<Property Name="TrimEnd" Type="Real64" Value="2.03069196428571"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>-15</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Character_Harpoon_Firing.wav</AudioFile>
@@ -192,9 +248,15 @@
 							<ChildrenList>
 								<AudioFileSource Name="Character_Harpoon_Hit_Metal_Basic" ID="{BD8B7D44-95FD-48AB-A16F-E8AA21D20F5C}">
 									<PropertyList>
+										<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
 										<Property Name="LoopBegin" Type="Real64" Value="0.12037037037037"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 										<Property Name="TrimBegin" Type="Real64" Value="0.12037037037037"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Character_Harpoon_Hit_Metal_Basic.wav</AudioFile>
@@ -220,9 +282,15 @@
 							<ChildrenList>
 								<AudioFileSource Name="Character_Harpoon_Hit_Metal" ID="{071CC013-27ED-4B4B-AF5E-BE82F7233746}">
 									<PropertyList>
+										<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
 										<Property Name="LoopBegin" Type="Real64" Value="0.57005602946646"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 										<Property Name="TrimBegin" Type="Real64" Value="0.57005602946646"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Character_Harpoon_Hit_Metal.wav</AudioFile>
@@ -247,8 +315,16 @@
 							<ChildrenList>
 								<AudioFileSource Name="Character_Harpoon_Hit_Wood_Basic" ID="{6221C642-CA2E-4E23-BB16-D7833C5E8C9A}">
 									<PropertyList>
+										<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.324135638297872"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 										<Property Name="TrimBegin" Type="Real64" Value="0.126818783068783"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.33327792553191"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Character_Harpoon_Hit_Wood_Basic.wav</AudioFile>
@@ -275,9 +351,15 @@
 							<ChildrenList>
 								<AudioFileSource Name="Character_Harpoon_Hit" ID="{91C1881A-3989-486B-99E3-C4359B968A36}">
 									<PropertyList>
+										<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
 										<Property Name="LoopBegin" Type="Real64" Value="0.617233080180926"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 										<Property Name="TrimBegin" Type="Real64" Value="0.617233080180926"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Character_Harpoon_Hit.wav</AudioFile>
@@ -302,9 +384,16 @@
 							<ChildrenList>
 								<AudioFileSource Name="Character_Harpoon_Rope_Retracted" ID="{87B339B0-0C68-4D04-80C7-638B39BEC59C}">
 									<PropertyList>
-										<Property Name="LoopBegin" Type="Real64" Value="0.165118055555556"/>
+										<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.160067902260638"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 										<Property Name="TrimBegin" Type="Real64" Value="0.165118055555556"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.31018542220745"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Character_Harpoon_Rope_Retracted.wav</AudioFile>
@@ -339,8 +428,14 @@
 									<ChildrenList>
 										<AudioFileSource Name="Character_Harpoon_Hit_Wood_Bounce" ID="{12EE41F9-B56C-4A7D-B261-824309BEBF29}">
 											<PropertyList>
+												<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.60543881750231"/>
+												<Property Name="VolumeOffset" Type="Real64">
+													<ValueList>
+														<Value>-7.7</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Character_Harpoon_Hit_Wood_Bounce.wav</AudioFile>
@@ -365,8 +460,14 @@
 									<ChildrenList>
 										<AudioFileSource Name="Character_Harpoon_Hit_Wood_Bounce_1" ID="{66352A07-F55D-4FED-9B55-4402C0665141}">
 											<PropertyList>
+												<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.609370238395182"/>
+												<Property Name="VolumeOffset" Type="Real64">
+													<ValueList>
+														<Value>-11</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Character_Harpoon_Hit_Wood_Bounce_1.wav</AudioFile>
@@ -391,8 +492,14 @@
 									<ChildrenList>
 										<AudioFileSource Name="Character_Harpoon_Hit_Wood_Bounce_2" ID="{03E76798-CE85-4B35-92AF-1498B7E5509B}">
 											<PropertyList>
+												<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.990718065003779"/>
+												<Property Name="VolumeOffset" Type="Real64">
+													<ValueList>
+														<Value>-8</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Character_Harpoon_Hit_Wood_Bounce_2.wav</AudioFile>

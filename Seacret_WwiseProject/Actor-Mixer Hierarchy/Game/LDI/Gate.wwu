@@ -14,6 +14,14 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="LDI_Gate_Closing_Big_Industrial" ID="{7A5ADACA-9B99-441B-AC87-0ADAB9D1294C}">
+							<PropertyList>
+								<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
+								<Property Name="VolumeOffset" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>LDI_Gate_Closing_Big_Industrial.wav</AudioFile>
 							<MediaIDList>
@@ -36,6 +44,9 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="LDI_Gate_Closing_Small" ID="{2A018952-8BB8-4D2C-A103-0E5359BCED12}">
+							<PropertyList>
+								<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>LDI_Gate_Closing_Small.wav</AudioFile>
 							<MediaIDList>

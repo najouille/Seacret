@@ -18,6 +18,11 @@
 								<Property Name="LoopBegin" Type="Real64" Value="1.10686164229471"/>
 								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 								<Property Name="TrimBegin" Type="Real64" Value="1.10686164229471"/>
+								<Property Name="VolumeOffset" Type="Real64">
+									<ValueList>
+										<Value>-15</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>Menu_Validation.wav</AudioFile>
@@ -42,9 +47,15 @@
 					<ChildrenList>
 						<AudioFileSource Name="Menu_Back" ID="{B82ECF12-E5A0-4B4D-850A-652C0B4D4BE2}">
 							<PropertyList>
+								<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
 								<Property Name="LoopBegin" Type="Real64" Value="0.325928008998875"/>
 								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 								<Property Name="TrimBegin" Type="Real64" Value="0.325928008998875"/>
+								<Property Name="VolumeOffset" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>Menu_Back.wav</AudioFile>
@@ -69,9 +80,15 @@
 					<ChildrenList>
 						<AudioFileSource Name="Menu_Pause" ID="{1D5D96E2-E70B-4920-832E-E182A5D849A2}">
 							<PropertyList>
+								<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
 								<Property Name="LoopBegin" Type="Real64" Value="0.609111361079865"/>
 								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 								<Property Name="TrimBegin" Type="Real64" Value="0.609111361079865"/>
+								<Property Name="VolumeOffset" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>Menu_Pause.wav</AudioFile>
@@ -109,6 +126,11 @@
 										<Property Name="LoopBegin" Type="Real64" Value="0.227784026996625"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 										<Property Name="TrimBegin" Type="Real64" Value="0.227784026996625"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Menu_Navigation.wav</AudioFile>
@@ -136,6 +158,11 @@
 										<Property Name="LoopBegin" Type="Real64" Value="0.53177727784027"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 										<Property Name="TrimBegin" Type="Real64" Value="0.53177727784027"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Menu_Navigation_1.wav</AudioFile>
@@ -163,6 +190,11 @@
 										<Property Name="LoopBegin" Type="Real64" Value="0.202474690663667"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 										<Property Name="TrimBegin" Type="Real64" Value="0.202474690663667"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Menu_Navigation_2.wav</AudioFile>
@@ -191,6 +223,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="Menu_Underwater_Ambiance" ID="{05836EA5-A36C-4DA8-94E4-711CC7E12CD2}">
+							<PropertyList>
+								<Property Name="VolumeOffset" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>Menu_Underwater_Ambiance.wav</AudioFile>
 							<MediaIDList>
@@ -231,16 +270,19 @@
 							<Reference>
 								<Local>
 									<EffectSlot Name="" ID="{606759EE-A583-4B69-AD03-D27E5A29D49A}" ShortID="501651836">
+										<PropertyList>
+											<Property Name="Bypass" Type="bool" Value="True"/>
+										</PropertyList>
 										<ReferenceList>
 											<Reference Name="Effect">
-												<Custom CreatedFrom="{71B802A7-03E2-4998-B241-B2B84FE9DDFF}">
-													<Effect Name="Medium_Room1 (Custom)" ID="{490BE32E-B448-4E77-B828-935326B00729}" ShortID="760105351" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+												<Custom CreatedFrom="{65E0ACE4-B404-4485-87A4-5907277D9858}">
+													<Effect Name="PA_Announcement1 (Custom)" ID="{FF15A535-CA39-4A8C-8B5F-94753EC7A2C7}" ShortID="714323065" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
 														<PropertyList>
-															<Property Name="DryLevel" Type="Real32" Value="-35.3"/>
-															<Property Name="HFRatio" Type="Real32" Value="6"/>
+															<Property Name="HFRatio" Type="Real32" Value="5.5"/>
 															<Property Name="NumberOfDelays" Type="int32" Value="12"/>
+															<Property Name="PreDelay" Type="Real32" Value="0.2"/>
 															<Property Name="ReverbTime" Type="Real32" Value="2"/>
-															<Property Name="WetLevel" Type="Real32" Value="-19"/>
+															<Property Name="WetLevel" Type="Real32" Value="-30"/>
 														</PropertyList>
 													</Effect>
 												</Custom>

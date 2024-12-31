@@ -15,8 +15,14 @@
 					<ChildrenList>
 						<AudioFileSource Name="M-8_Robot_Damaged_Bugging" ID="{86E45649-F35E-4CD7-B13B-9FE5DBD6669D}">
 							<PropertyList>
+								<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
 								<Property Name="LoopBegin" Type="Real64" Value="0"/>
 								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="VolumeOffset" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>M-8_Robot_Damaged_Bugging.wav</AudioFile>

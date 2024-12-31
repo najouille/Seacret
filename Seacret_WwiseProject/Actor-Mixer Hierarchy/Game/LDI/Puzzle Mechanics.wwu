@@ -15,6 +15,14 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="LDI_Crate_Dragging" ID="{A89180A0-6468-4537-A5EE-F882865344B2}">
+							<PropertyList>
+								<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
+								<Property Name="VolumeOffset" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>LDI_Crate_Dragging.wav</AudioFile>
 							<MediaIDList>
@@ -45,6 +53,14 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="LDI_Highly_Pressurized_Air" ID="{535656DB-E021-4606-A3B6-6F095211F6C8}">
+							<PropertyList>
+								<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
+								<Property Name="VolumeOffset" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>LDI_Highly_Pressurized_Air.wav</AudioFile>
 							<MediaIDList>
@@ -67,6 +83,14 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="LDI_Pressure_Plate_Pressed" ID="{7BEEE53C-E953-4135-A361-A383249992C1}">
+							<PropertyList>
+								<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
+								<Property Name="VolumeOffset" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>LDI_Pressure_Plate_Pressed.wav</AudioFile>
 							<MediaIDList>
@@ -89,6 +113,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="LDI_Pressure_Plate_Unpressed" ID="{3511650E-E83A-40DB-9BC0-B7B444D09D0E}">
+							<PropertyList>
+								<Property Name="VolumeOffset" Type="Real64">
+									<ValueList>
+										<Value>-16</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>LDI_Pressure_Plate_Unpressed.wav</AudioFile>
 							<MediaIDList>
@@ -112,9 +143,15 @@
 					<ChildrenList>
 						<AudioFileSource Name="Crate_Landing" ID="{046EF9DA-62A1-4B8E-9A3C-117D740AE6CC}">
 							<PropertyList>
+								<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
 								<Property Name="LoopBegin" Type="Real64" Value="0.0605492273730684"/>
 								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 								<Property Name="TrimBegin" Type="Real64" Value="0.0605492273730684"/>
+								<Property Name="VolumeOffset" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>Crate_Landing.wav</AudioFile>

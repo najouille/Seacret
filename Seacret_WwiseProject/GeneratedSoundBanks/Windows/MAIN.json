@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{B5436080-6685-492B-9F0D-407F97437144}",
     "Language": "SFX",
-    "Hash": "{1C2A67C6-EA11-20DB-69D7-D2A2B48D6858}",
+    "Hash": "{C6EA109A-5B51-B649-D801-AE4AF2F2FE42}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MAIN",
     "ShortName": "MAIN",
     "Path": "MAIN.bnk",
@@ -29,7 +29,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "LDI_Gate_Closing_Small.wav",
-      "CachePath": "SFX/LDI_Gate_Closing_Small_818F3B66.wem"
+      "CachePath": "SFX/LDI_Gate_Closing_Small_D4C07EA9.wem"
      },
      {
       "Id": "89664466",
@@ -37,7 +37,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Character_Harpoon_Hit_Metal_Basic.wav",
-      "CachePath": "SFX/Character_Harpoon_Hit_Metal_Basic_2CCC698E.wem"
+      "CachePath": "SFX/Character_Harpoon_Hit_Metal_Basic_D5F5A5D1.wem"
      },
      {
       "Id": "147782549",
@@ -53,7 +53,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Character_Harpoon_Hit_Wood_Bounce.wav",
-      "CachePath": "SFX/Character_Harpoon_Hit_Wood_Bounce_E71D2C9D.wem"
+      "CachePath": "SFX/Character_Harpoon_Hit_Wood_Bounce_6C9E7C6E.wem"
+     },
+     {
+      "Id": "205095686",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Misc_Ceiling_Lamp_Flickering.wav",
+      "CachePath": "SFX/Misc_Ceiling_Lamp_Flickering_D4C07EA9.wem"
      },
      {
       "Id": "234105257",
@@ -61,7 +69,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "LDI_Big_Fan_Spinning.wav",
-      "CachePath": "SFX/LDI_Big_Fan_Spinning_FBC78EF0.wem"
+      "CachePath": "SFX/LDI_Big_Fan_Spinning_4B4A429F.wem"
      },
      {
       "Id": "249225683",
@@ -69,7 +77,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Character_Harpoon_Rope_Retracted.wav",
-      "CachePath": "SFX/Character_Harpoon_Rope_Retracted_2C3A867C.wem"
+      "CachePath": "SFX/Character_Harpoon_Rope_Retracted_519FC73C.wem"
      },
      {
       "Id": "267317497",
@@ -93,7 +101,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "LDI_Highly_Pressurized_Air.wav",
-      "CachePath": "SFX/LDI_Highly_Pressurized_Air_FBC78EF0.wem"
+      "CachePath": "SFX/LDI_Highly_Pressurized_Air_4B4A429F.wem"
      },
      {
       "Id": "278998757",
@@ -101,7 +109,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Character_Dash.wav",
-      "CachePath": "SFX/Character_Dash_8BAF32D6.wem"
+      "CachePath": "SFX/Character_Dash_DEE07619.wem"
      },
      {
       "Id": "284723913",
@@ -117,7 +125,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Crate_Landing.wav",
-      "CachePath": "SFX/Crate_Landing_FAF36082.wem"
+      "CachePath": "SFX/Crate_Landing_19C5F256.wem"
      },
      {
       "Id": "480667015",
@@ -133,7 +141,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Character_Harpoon_Hit_Wood_Basic.wav",
-      "CachePath": "SFX/Character_Harpoon_Hit_Wood_Basic_4A0D51D5.wem"
+      "CachePath": "SFX/Character_Harpoon_Hit_Wood_Basic_620E4431.wem"
      },
      {
       "Id": "491526676",
@@ -141,7 +149,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "LDI_Crate_Dragging.wav",
-      "CachePath": "SFX/LDI_Crate_Dragging_818F3B66.wem"
+      "CachePath": "SFX/LDI_Crate_Dragging_D4C07EA9.wem"
      },
      {
       "Id": "578586406",
@@ -149,7 +157,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "LDI_Gate_Closing_Big_Industrial.wav",
-      "CachePath": "SFX/LDI_Gate_Closing_Big_Industrial_818F3B66.wem"
+      "CachePath": "SFX/LDI_Gate_Closing_Big_Industrial_D4C07EA9.wem"
      },
      {
       "Id": "583229775",
@@ -157,7 +165,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Character_Harpoon_Hit_Wood_Bounce_1.wav",
-      "CachePath": "SFX/Character_Harpoon_Hit_Wood_Bounce_1_1A175DA6.wem"
+      "CachePath": "SFX/Character_Harpoon_Hit_Wood_Bounce_1_EE3C9669.wem"
      },
      {
       "Id": "644925676",
@@ -165,7 +173,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Menu_Pause.wav",
-      "CachePath": "SFX/Menu_Pause_D4D8190E.wem"
+      "CachePath": "SFX/Menu_Pause_28095C51.wem"
      },
      {
       "Id": "672432319",
@@ -181,7 +189,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Character_Harpoon_Hit_Wood_Bounce_2.wav",
-      "CachePath": "SFX/Character_Harpoon_Hit_Wood_Bounce_2_C0949871.wem"
+      "CachePath": "SFX/Character_Harpoon_Hit_Wood_Bounce_2_9C0DE142.wem"
      },
      {
       "Id": "716256250",
@@ -189,7 +197,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "M-8_Robot_Damaged_Bugging.wav",
-      "CachePath": "SFX/M-8_Robot_Damaged_Bugging_818F3B66.wem"
+      "CachePath": "SFX/M-8_Robot_Damaged_Bugging_D4C07EA9.wem"
+     },
+     {
+      "Id": "726836068",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Misc_Elevator_Going_Down.wav",
+      "CachePath": "SFX/Misc_Elevator_Going_Down_818F3B66.wem"
      },
      {
       "Id": "763450215",
@@ -197,7 +213,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "LDI_Pressure_Plate_Pressed.wav",
-      "CachePath": "SFX/LDI_Pressure_Plate_Pressed_818F3B66.wem"
+      "CachePath": "SFX/LDI_Pressure_Plate_Pressed_D4C07EA9.wem"
      },
      {
       "Id": "778304567",
@@ -205,7 +221,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Menu_Back.wav",
-      "CachePath": "SFX/Menu_Back_54DAF1EF.wem"
+      "CachePath": "SFX/Menu_Back_D6ADB22C.wem"
      },
      {
       "Id": "795238183",
@@ -213,7 +229,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Character_Harpoon_Firing.wav",
-      "CachePath": "SFX/Character_Harpoon_Firing_567E770F.wem"
+      "CachePath": "SFX/Character_Harpoon_Firing_D851374C.wem"
+     },
+     {
+      "Id": "894602773",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Misc_Sonar_ping.wav",
+      "CachePath": "SFX/Misc_Sonar_ping_D4C07EA9.wem"
      },
      {
       "Id": "969413322",
@@ -221,18 +245,34 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Character_Reach_Button_Press.wav",
-      "CachePath": "SFX/Character_Reach_Button_Press_A907EE33.wem"
+      "CachePath": "SFX/Character_Reach_Button_Press_FFDEB1F0.wem"
+     },
+     {
+      "Id": "999436032",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Misc_Heart_Rate_Monitor_Bip.wav",
+      "CachePath": "SFX/Misc_Heart_Rate_Monitor_Bip_48D1E104.wem"
      }
     ],
     "Plugins": {
      "Custom": [
       {
-       "Id": "760105351",
-       "Name": "Medium_Room1 (Custom)",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\Menu\\Onboarding_Music\\[Effect Slot [0]: (Matrix Reverb)]\\Medium_Room1 (Custom)",
-       "GUID": "{490BE32E-B448-4E77-B828-935326B00729}",
+       "Id": "714323065",
+       "Name": "PA_Announcement1 (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Menu\\Onboarding_Music\\[Effect Slot [0]: (Matrix Reverb)]\\PA_Announcement1 (Custom)",
+       "GUID": "{FF15A535-CA39-4A8C-8B5F-94753EC7A2C7}",
        "LibName": "Wwise Matrix Reverb",
        "LibId": "7536643"
+      },
+      {
+       "Id": "1047474737",
+       "Name": "Dual_Filters_Narrow_Bandwidth (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Game\\Misc\\Misc_Ceiling_Lamp_Flickering\\[Effect Slot [0]: (Parametric EQ)]\\Dual_Filters_Narrow_Bandwidth (Custom)",
+       "GUID": "{5F4F1E20-EDF2-4751-B085-DBF3E5965C8A}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
       }
      ]
     },
@@ -292,6 +332,20 @@
       ]
      },
      {
+      "Id": "2518616252",
+      "Name": "Elevator_Moving",
+      "ObjectPath": "\\Events\\Game\\Other\\Elevator_Moving",
+      "GUID": "{1D810A6A-E4AC-4D26-9811-071E3495315E}",
+      "DurationType": "OneShot",
+      "DurationMin": "28.75",
+      "DurationMax": "28.75",
+      "MediaRefs": [
+       {
+        "Id": "726836068"
+       }
+      ]
+     },
+     {
       "Id": "733168346",
       "Name": "Game_Start",
       "ObjectPath": "\\Events\\Menu\\Game_Start",
@@ -307,7 +361,7 @@
       "PluginRefs": {
        "Custom": [
         {
-         "Id": "760105351"
+         "Id": "714323065"
         }
        ]
       }
@@ -374,8 +428,8 @@
       "ObjectPath": "\\Events\\Player\\Harpoon\\Harpoon_Hit_Wood",
       "GUID": "{1CFB75F5-CFD6-4930-B010-E67A3A6C9951}",
       "DurationType": "OneShot",
-      "DurationMin": "1.4981812",
-      "DurationMax": "1.4981812",
+      "DurationMin": "1.2064592",
+      "DurationMax": "1.2064592",
       "MediaRefs": [
        {
         "Id": "486718626"
@@ -408,13 +462,46 @@
       "ObjectPath": "\\Events\\Player\\Harpoon\\Harpoon_Retract",
       "GUID": "{16AD29F3-5EE1-413A-97DE-CAF94BCBC67D}",
       "DurationType": "OneShot",
-      "DurationMin": "1.3209444",
-      "DurationMax": "1.3209444",
+      "DurationMin": "1.1450673",
+      "DurationMax": "1.1450673",
       "MediaRefs": [
        {
         "Id": "249225683"
        }
       ]
+     },
+     {
+      "Id": "799024895",
+      "Name": "Heart_Rate_Monitor",
+      "ObjectPath": "\\Events\\Game\\Other\\Heart_Rate_Monitor",
+      "GUID": "{C06156FB-27B8-4B45-9C6E-2865B5435F0C}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "999436032"
+       }
+      ]
+     },
+     {
+      "Id": "949954721",
+      "Name": "Lamps_Flickering",
+      "ObjectPath": "\\Events\\Game\\Other\\Lamps_Flickering",
+      "GUID": "{37AB9883-F8C3-4E53-BE6F-054952ACA926}",
+      "DurationType": "OneShot",
+      "DurationMin": "12.850958",
+      "DurationMax": "12.850958",
+      "MediaRefs": [
+       {
+        "Id": "205095686"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "1047474737"
+        }
+       ]
+      }
      },
      {
       "Id": "3984496399",
@@ -557,10 +644,24 @@
         "Id": "276612715"
        }
       ]
+     },
+     {
+      "Id": "902506537",
+      "Name": "Sonar_Ping",
+      "ObjectPath": "\\Events\\Game\\Other\\Sonar_Ping",
+      "GUID": "{88B8E349-D1A0-4E7A-B822-B542CB7C3543}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.458229",
+      "DurationMax": "4.458229",
+      "MediaRefs": [
+       {
+        "Id": "894602773"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{206AEDD2-4B77-19B1-11E9-CF055C919BCB}"
+  "FileHash": "{335F5B72-0332-3E7D-7F94-F1A5289175C1}"
  }
 }

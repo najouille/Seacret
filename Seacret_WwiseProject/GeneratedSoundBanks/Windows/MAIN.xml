@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{B5436080-6685-492B-9F0D-407F97437144}" Language="SFX" Hash="{1C2A67C6-EA11-20DB-69D7-D2A2B48D6858}">
+		<SoundBank Id="3161908922" Type="User" GUID="{B5436080-6685-492B-9F0D-407F97437144}" Language="SFX" Hash="{C6EA109A-5B51-B649-D801-AE4AF2F2FE42}">
 			<ObjectPath>\SoundBanks\Default Work Unit\MAIN</ObjectPath>
 			<ShortName>MAIN</ShortName>
 			<Path>MAIN.bnk</Path>
@@ -12,11 +12,11 @@
 				</File>
 				<File Id="87852075" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>LDI_Gate_Closing_Small.wav</ShortName>
-					<CachePath>SFX/LDI_Gate_Closing_Small_818F3B66.wem</CachePath>
+					<CachePath>SFX/LDI_Gate_Closing_Small_D4C07EA9.wem</CachePath>
 				</File>
 				<File Id="89664466" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character_Harpoon_Hit_Metal_Basic.wav</ShortName>
-					<CachePath>SFX/Character_Harpoon_Hit_Metal_Basic_2CCC698E.wem</CachePath>
+					<CachePath>SFX/Character_Harpoon_Hit_Metal_Basic_D5F5A5D1.wem</CachePath>
 				</File>
 				<File Id="147782549" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Menu_Underwater_Ambiance.wav</ShortName>
@@ -24,15 +24,19 @@
 				</File>
 				<File Id="197171966" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character_Harpoon_Hit_Wood_Bounce.wav</ShortName>
-					<CachePath>SFX/Character_Harpoon_Hit_Wood_Bounce_E71D2C9D.wem</CachePath>
+					<CachePath>SFX/Character_Harpoon_Hit_Wood_Bounce_6C9E7C6E.wem</CachePath>
+				</File>
+				<File Id="205095686" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Misc_Ceiling_Lamp_Flickering.wav</ShortName>
+					<CachePath>SFX/Misc_Ceiling_Lamp_Flickering_D4C07EA9.wem</CachePath>
 				</File>
 				<File Id="234105257" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>LDI_Big_Fan_Spinning.wav</ShortName>
-					<CachePath>SFX/LDI_Big_Fan_Spinning_FBC78EF0.wem</CachePath>
+					<CachePath>SFX/LDI_Big_Fan_Spinning_4B4A429F.wem</CachePath>
 				</File>
 				<File Id="249225683" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character_Harpoon_Rope_Retracted.wav</ShortName>
-					<CachePath>SFX/Character_Harpoon_Rope_Retracted_2C3A867C.wem</CachePath>
+					<CachePath>SFX/Character_Harpoon_Rope_Retracted_519FC73C.wem</CachePath>
 				</File>
 				<File Id="267317497" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>LDI_Pressure_Plate_Unpressed.wav</ShortName>
@@ -44,11 +48,11 @@
 				</File>
 				<File Id="276612715" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>LDI_Highly_Pressurized_Air.wav</ShortName>
-					<CachePath>SFX/LDI_Highly_Pressurized_Air_FBC78EF0.wem</CachePath>
+					<CachePath>SFX/LDI_Highly_Pressurized_Air_4B4A429F.wem</CachePath>
 				</File>
 				<File Id="278998757" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character_Dash.wav</ShortName>
-					<CachePath>SFX/Character_Dash_8BAF32D6.wem</CachePath>
+					<CachePath>SFX/Character_Dash_DEE07619.wem</CachePath>
 				</File>
 				<File Id="284723913" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Menu_Navigation_2.wav</ShortName>
@@ -56,7 +60,7 @@
 				</File>
 				<File Id="356821453" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Crate_Landing.wav</ShortName>
-					<CachePath>SFX/Crate_Landing_FAF36082.wem</CachePath>
+					<CachePath>SFX/Crate_Landing_19C5F256.wem</CachePath>
 				</File>
 				<File Id="480667015" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Onboarding_Music.wav</ShortName>
@@ -64,23 +68,23 @@
 				</File>
 				<File Id="486718626" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character_Harpoon_Hit_Wood_Basic.wav</ShortName>
-					<CachePath>SFX/Character_Harpoon_Hit_Wood_Basic_4A0D51D5.wem</CachePath>
+					<CachePath>SFX/Character_Harpoon_Hit_Wood_Basic_620E4431.wem</CachePath>
 				</File>
 				<File Id="491526676" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>LDI_Crate_Dragging.wav</ShortName>
-					<CachePath>SFX/LDI_Crate_Dragging_818F3B66.wem</CachePath>
+					<CachePath>SFX/LDI_Crate_Dragging_D4C07EA9.wem</CachePath>
 				</File>
 				<File Id="578586406" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>LDI_Gate_Closing_Big_Industrial.wav</ShortName>
-					<CachePath>SFX/LDI_Gate_Closing_Big_Industrial_818F3B66.wem</CachePath>
+					<CachePath>SFX/LDI_Gate_Closing_Big_Industrial_D4C07EA9.wem</CachePath>
 				</File>
 				<File Id="583229775" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character_Harpoon_Hit_Wood_Bounce_1.wav</ShortName>
-					<CachePath>SFX/Character_Harpoon_Hit_Wood_Bounce_1_1A175DA6.wem</CachePath>
+					<CachePath>SFX/Character_Harpoon_Hit_Wood_Bounce_1_EE3C9669.wem</CachePath>
 				</File>
 				<File Id="644925676" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Menu_Pause.wav</ShortName>
-					<CachePath>SFX/Menu_Pause_D4D8190E.wem</CachePath>
+					<CachePath>SFX/Menu_Pause_28095C51.wem</CachePath>
 				</File>
 				<File Id="672432319" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Menu_Navigation.wav</ShortName>
@@ -88,32 +92,45 @@
 				</File>
 				<File Id="688482165" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character_Harpoon_Hit_Wood_Bounce_2.wav</ShortName>
-					<CachePath>SFX/Character_Harpoon_Hit_Wood_Bounce_2_C0949871.wem</CachePath>
+					<CachePath>SFX/Character_Harpoon_Hit_Wood_Bounce_2_9C0DE142.wem</CachePath>
 				</File>
 				<File Id="716256250" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>M-8_Robot_Damaged_Bugging.wav</ShortName>
-					<CachePath>SFX/M-8_Robot_Damaged_Bugging_818F3B66.wem</CachePath>
+					<CachePath>SFX/M-8_Robot_Damaged_Bugging_D4C07EA9.wem</CachePath>
+				</File>
+				<File Id="726836068" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Misc_Elevator_Going_Down.wav</ShortName>
+					<CachePath>SFX/Misc_Elevator_Going_Down_818F3B66.wem</CachePath>
 				</File>
 				<File Id="763450215" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>LDI_Pressure_Plate_Pressed.wav</ShortName>
-					<CachePath>SFX/LDI_Pressure_Plate_Pressed_818F3B66.wem</CachePath>
+					<CachePath>SFX/LDI_Pressure_Plate_Pressed_D4C07EA9.wem</CachePath>
 				</File>
 				<File Id="778304567" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Menu_Back.wav</ShortName>
-					<CachePath>SFX/Menu_Back_54DAF1EF.wem</CachePath>
+					<CachePath>SFX/Menu_Back_D6ADB22C.wem</CachePath>
 				</File>
 				<File Id="795238183" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character_Harpoon_Firing.wav</ShortName>
-					<CachePath>SFX/Character_Harpoon_Firing_567E770F.wem</CachePath>
+					<CachePath>SFX/Character_Harpoon_Firing_D851374C.wem</CachePath>
+				</File>
+				<File Id="894602773" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Misc_Sonar_ping.wav</ShortName>
+					<CachePath>SFX/Misc_Sonar_ping_D4C07EA9.wem</CachePath>
 				</File>
 				<File Id="969413322" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character_Reach_Button_Press.wav</ShortName>
-					<CachePath>SFX/Character_Reach_Button_Press_A907EE33.wem</CachePath>
+					<CachePath>SFX/Character_Reach_Button_Press_FFDEB1F0.wem</CachePath>
+				</File>
+				<File Id="999436032" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Misc_Heart_Rate_Monitor_Bip.wav</ShortName>
+					<CachePath>SFX/Misc_Heart_Rate_Monitor_Bip_48D1E104.wem</CachePath>
 				</File>
 			</Media>
 			<Plugins>
 				<Custom>
-					<Plugin Id="760105351" Name="Medium_Room1 (Custom)" ObjectPath="\Actor-Mixer Hierarchy\Menu\Onboarding_Music\[Effect Slot [0]: (Matrix Reverb)]\Medium_Room1 (Custom)" GUID="{490BE32E-B448-4E77-B828-935326B00729}" LibName="Wwise Matrix Reverb" LibId="7536643"/>
+					<Plugin Id="714323065" Name="PA_Announcement1 (Custom)" ObjectPath="\Actor-Mixer Hierarchy\Menu\Onboarding_Music\[Effect Slot [0]: (Matrix Reverb)]\PA_Announcement1 (Custom)" GUID="{FF15A535-CA39-4A8C-8B5F-94753EC7A2C7}" LibName="Wwise Matrix Reverb" LibId="7536643"/>
+					<Plugin Id="1047474737" Name="Dual_Filters_Narrow_Bandwidth (Custom)" ObjectPath="\Actor-Mixer Hierarchy\Game\Misc\Misc_Ceiling_Lamp_Flickering\[Effect Slot [0]: (Parametric EQ)]\Dual_Filters_Narrow_Bandwidth (Custom)" GUID="{5F4F1E20-EDF2-4751-B085-DBF3E5965C8A}" LibName="Wwise Parametric EQ" LibId="6881283"/>
 				</Custom>
 			</Plugins>
 			<Events>
@@ -137,13 +154,18 @@
 						<MediaRef Id="356821453"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2518616252" Name="Elevator_Moving" ObjectPath="\Events\Game\Other\Elevator_Moving" GUID="{1D810A6A-E4AC-4D26-9811-071E3495315E}" DurationType="OneShot" DurationMin="28.75" DurationMax="28.75">
+					<MediaRefs>
+						<MediaRef Id="726836068"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="733168346" Name="Game_Start" ObjectPath="\Events\Menu\Game_Start" GUID="{321A1B7E-E6C2-437D-BC31-F076CBFD2A97}" DurationType="OneShot" DurationMin="12.788772" DurationMax="12.788772">
 					<MediaRefs>
 						<MediaRef Id="480667015"/>
 					</MediaRefs>
 					<PluginRefs>
 						<Custom>
-							<PluginRef Id="760105351"/>
+							<PluginRef Id="714323065"/>
 						</Custom>
 					</PluginRefs>
 				</Event>
@@ -167,7 +189,7 @@
 						<MediaRef Id="89664466"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1279314012" Name="Harpoon_Hit_Wood" ObjectPath="\Events\Player\Harpoon\Harpoon_Hit_Wood" GUID="{1CFB75F5-CFD6-4930-B010-E67A3A6C9951}" DurationType="OneShot" DurationMin="1.4981812" DurationMax="1.4981812">
+				<Event Id="1279314012" Name="Harpoon_Hit_Wood" ObjectPath="\Events\Player\Harpoon\Harpoon_Hit_Wood" GUID="{1CFB75F5-CFD6-4930-B010-E67A3A6C9951}" DurationType="OneShot" DurationMin="1.2064592" DurationMax="1.2064592">
 					<MediaRefs>
 						<MediaRef Id="486718626"/>
 					</MediaRefs>
@@ -179,10 +201,25 @@
 						<MediaRef Id="688482165"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="428938660" Name="Harpoon_Retract" ObjectPath="\Events\Player\Harpoon\Harpoon_Retract" GUID="{16AD29F3-5EE1-413A-97DE-CAF94BCBC67D}" DurationType="OneShot" DurationMin="1.3209444" DurationMax="1.3209444">
+				<Event Id="428938660" Name="Harpoon_Retract" ObjectPath="\Events\Player\Harpoon\Harpoon_Retract" GUID="{16AD29F3-5EE1-413A-97DE-CAF94BCBC67D}" DurationType="OneShot" DurationMin="1.1450673" DurationMax="1.1450673">
 					<MediaRefs>
 						<MediaRef Id="249225683"/>
 					</MediaRefs>
+				</Event>
+				<Event Id="799024895" Name="Heart_Rate_Monitor" ObjectPath="\Events\Game\Other\Heart_Rate_Monitor" GUID="{C06156FB-27B8-4B45-9C6E-2865B5435F0C}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="999436032"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="949954721" Name="Lamps_Flickering" ObjectPath="\Events\Game\Other\Lamps_Flickering" GUID="{37AB9883-F8C3-4E53-BE6F-054952ACA926}" DurationType="OneShot" DurationMin="12.850958" DurationMax="12.850958">
+					<MediaRefs>
+						<MediaRef Id="205095686"/>
+					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="1047474737"/>
+						</Custom>
+					</PluginRefs>
 				</Event>
 				<Event Id="3984496399" Name="M8_TakeDamage" ObjectPath="\Events\NPC\M8\M8_TakeDamage" GUID="{9C72C75A-01A7-4AAF-B201-F46BFC7EF13C}" DurationType="OneShot" DurationMin="5" DurationMax="5">
 					<MediaRefs>
@@ -236,8 +273,13 @@
 						<MediaRef Id="276612715"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="902506537" Name="Sonar_Ping" ObjectPath="\Events\Game\Other\Sonar_Ping" GUID="{88B8E349-D1A0-4E7A-B822-B542CB7C3543}" DurationType="OneShot" DurationMin="4.458229" DurationMax="4.458229">
+					<MediaRefs>
+						<MediaRef Id="894602773"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{4B2851B2-519D-C729-355C-55D5B88ACA78}</FileHash>
+	<FileHash>{97C08FAA-8E03-A90A-63E6-F7E15C8203FA}</FileHash>
 </SoundBanksInfo>

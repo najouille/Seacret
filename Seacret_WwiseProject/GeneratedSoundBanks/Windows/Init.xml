@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{E7DD5D72-E980-BC5C-61F5-A88AAFFF06D1}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{7094C5E8-13AF-6B8D-8677-A1A5C986BEDF}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -16,5 +16,5 @@
 			</Busses>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E8676AFB-4DEF-BFB3-0476-DFEA4D164FB6}</FileHash>
+	<FileHash>{A7339B49-7467-0DCF-C246-54C1B82BDAF7}</FileHash>
 </SoundBanksInfo>
